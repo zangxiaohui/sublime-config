@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+/* ==================================================
+   Cat
+   ================================================== */
+.cat { width: 240px; position: absolute; left: 0; top: 0; }
+.cat-hd { background: url(../images/round-bg2.png) no-repeat; font: 13px/34px microsoft yahei; color: #fff; padding-left: 20px; }
+.cat-bd { z-index: 2; position: relative; cursor: pointer; background: #f8f8f8; border: 1px solid #bbb; border-top-width: 0; padding-bottom: 7px; -webkit-border-radius: 0 0 6px 6px; -moz-border-radius: 0 0 6px 6px; border-radius: 0 0 6px 6px; height: 315px; display: block; }
+.cat-menu { z-index: 904; position: absolute; top: 0; left: -1px; width: 240px; }
+.cat-menu li { position: relative; height: 33px; line-height: 33px; margin: 1px 15px 0; border-bottom: 1px solid #dedede; }
+.cat-menu .last { border-bottom-color: #fff; }
+/* cat-icon */
+.cat-menu li .cat-icon { float: left; width: 25px; height: 21px; margin: 6px 18px 0 0; -webkit-transition: width .2s linear; -moz-transition: width .2s linear; -o-transition: width .2s linear; transition: width .2s linear; background-image: url(../images/cat-icon.png); background-repeat: no-repeat; }
+.cat-menu .cat-item1 .cat-icon { background-position: 100% 0px; }
+.cat-menu .cat-item2 .cat-icon { background-position: 100% -30px; }
+.cat-menu .cat-item3 .cat-icon { background-position: 100% -69px; }
+.cat-menu .cat-item4 .cat-icon { background-position: 100% -104px; }
+.cat-menu .cat-item5 .cat-icon { background-position: 100% -139px; }
+.cat-menu .cat-item6 .cat-icon { background-position: 100% -171px; }
+.cat-menu .cat-item7 .cat-icon { background-position: 100% -206px; }
+.cat-menu .cat-item8 .cat-icon { background-position: 100% -240px; }
+.cat-menu .cat-item9 .cat-icon { background-position: 100% -274px; }
+/* cat-arrow */
+.cat-menu li .arrow { left: 190px; width: 4px; height: 8px; }
+.cat-menu li .arrow em { left: 1px; border-left-color: #999; }
+.cat-menu li .arrow span { border-left-color: #f8f8f8; }
+/* cat-selected */
+.cat-menu .selected { margin: 0; padding-left: 14px; padding-right: 14px; border: 1px solid #c00; border-right: 0; background: #fff; }
+.cat-menu .selected .cat-icon { width: 30px; }
+.cat-menu .selected .arrow { display: block; left: 204px; }
+.cat-menu .selected .arrow em { border-left-color: #bd020b; }
+.cat-menu .selected .arrow span { border-left-color: #fff; }
+/* cat-cont */
+.cat-cont { z-index: 903; position: absolute; top: 0; left: 238px; }
+.cat-cont ul { z-index: 905; position: relative; padding: 10px 15px; border: 1px solid #f40; background: #fff; overflow: hidden; display: none; width: 200px; }
+.cat-cont ul li a { display: block; padding: 5px 0 5px 10px; background: url(../images/i-square.gif) no-repeat 0; }
+.cat-cont ul li a:hover { color: #c00; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cat.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

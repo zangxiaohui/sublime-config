@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-box">
+  <div class="field">
+    <label for="" class="ui-label">${1:<i class="fa fa-key"></i>}</label>
+    <input type="text" class="ui-input" placeholder="" value="" name="">
+  </div>
+  <div class="field btn-field">
+    <input type="submit" value="" class="ui-btn ui-btn1">
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>field</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

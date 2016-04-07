@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\$(".tab-cont").hide();
+\$(".tab-hd h2").each(function(i, o) {
+	\$(o).hover(function() {
+		\$(".tab-cont").hide();
+		\$(".tab-cont:eq(" + i + ")").show();
+	}, function() {});
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jj-tab2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

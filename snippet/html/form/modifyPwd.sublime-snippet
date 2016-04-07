@@ -1,0 +1,66 @@
+<snippet>
+	<content><![CDATA[
+<script>
+function message_OnSubmit() {
+	var err = 0;
+	var Password1 = get("Password1").value;
+	if(Password1.length < 6) {
+		get("ReqPassword1").innerHTML = "*密码长度不能小于6";
+		err = err + 1;
+	} else {
+		get("ReqPassword1").innerHTML = "*"
+	}
+	var Password2 = get("Password2").value.Trim();
+	if(Password1 != Password2) {
+		get("ReqPassword2").innerHTML = "*两次密码输入不一致";
+		err = err + 1
+	} else {
+		get("ReqPassword2").innerHTML = "*"
+	}
+	if(err > 0) {
+		return false;
+	}
+}
+</script> 
+<!--Repeater TableName="Dcms_User" where="User_Id={session.UserId,0}" SqlType="select" PrimaryKey="User_Id" SelectDir="this" PageSize="1" IsPage="false"--> 
+<!--Item-->
+<form name="modifyPwd-form" method="post" action="/sysaspx/UpdatePwd.aspx" onSubmit="javascript:return message_OnSubmit(this);" id="modifyPwd-form">
+    <input type="hidden" name="successMessage" id="successMessage" value="修改成功！" />
+    <input type="hidden" name="successUrl" id="successUrl" value="/EditUser.aspx" />
+    <input type="hidden" name="errorMessage" id="errorMessage" value="对不起，提交失败，请重试！" />
+    <fieldset>
+      <legend>修改密码</legend>
+      <div class="field">
+        <label class="ui-label" for="User_Name">账号：</label>
+        <input name="User_Name" value="{Dcms_User.User_Name}" disabled="disabled" type="text" id="User_Name"  class="ui-input">
+        <i id="ReqUname" class="asterisk">*</i> </div>
+      <div class="field">
+        <label class="ui-label" for="Password1">新密码：</label>
+        <input name="Password1" type="password" id="Password1" class="ui-input">
+        <i id="ReqPassword1" class="asterisk">*</i> </div>
+      <div class="field">
+        <label class="ui-label" for="Password2">再次输入：</label>
+        <input name="Password2" type="password" id="Password2" class="ui-input">
+        <i id="ReqPassword2" class="asterisk">*</i> </div>
+      <div class="field">
+        <div class="ui-button">
+          <input type="submit" value="确定" class="submit-btn">
+          <input type="reset" value="重填" class="reset-btn">
+        </div>
+      </div>
+    </fieldset>
+</form>
+<!--/Item--> 
+<!--NoItem--> 
+<script>
+alert('超时，请重新登录！');
+window.location.href = "/login.aspx";
+</script> 
+<!--/NoItem--> 
+<!--/Repeater-->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>modify</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div id="dcms_pager">
+  <div class="pages"><a class="pgnext">first</a><a class="pgnext">prev</a><a>1</a><a>2</a><a>3</a><a>4</a><a class="pgcurrent">5</a><a>6</a><a>7</a><a>8</a><a>9</a><a class="pgNext">next</a><a class="pgNext">last</a></div>
+</div>
+<script>renderDcmsPager3('first','prev','next','last');</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<ol class="step step-3">
+  <li class="first"><span>1. 查看购物车</span></li>
+  <li class="current"><span>2. 确认订单信息</span></li>
+  <li class="last"><span>3. 完成支付</span></li>
+</ol>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>step</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

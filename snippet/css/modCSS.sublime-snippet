@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/* ${1:mod} */ 
+.${1:mod} { }
+.${1:mod}-wrap { }
+.${1:mod}-hd { height: 42px; line-height: 42px; background: url(../images/${1:mod}-hd-bg.gif) repeat-x; }
+.${1:mod}-hd h2 { float: left; }
+.${1:mod}-hd h2 a { color: #004986; font: 300 14px microsoft yahei; }
+.${1:mod}-hd .more { float: right; }
+.${1:mod}-bd { overflow: hidden; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mod.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

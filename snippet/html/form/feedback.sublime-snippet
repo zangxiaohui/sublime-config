@@ -1,0 +1,67 @@
+<snippet>
+	<content><![CDATA[
+<script>
+function message_OnSubmit() {
+var err=0;
+var Title=get("GuestBook_Title").value;
+if(Title.length<1){get("ReqTitle").innerHTML="*必填";err=err+1;}else{get("ReqTitle").innerHTML="*"}var ValidCode=get("ValidCode").value;
+if(ValidCode.length<1){get("ReqValidCode").innerHTML="*必填";err=err+1;}else{get("ReqValidCode").innerHTML="*"}
+var UserName=get("GuestBook_UserName").value;
+if(UserName.length<1){get("ReqUserName").innerHTML="*必填";err=err+1;}else{get("ReqUserName").innerHTML="*"}
+var UserTel=get("GuestBook_UserTel").value;
+if(UserTel.length<1){get("ReqUserTel").innerHTML="*必填";err=err+1;}else{get("ReqUserTel").innerHTML="*"}
+var UserEmail=get("GuestBook_UserEmail").value;
+if(UserEmail.length<1){get("ReqUserEmail").innerHTML="*必填";err=err+1;}else{get("ReqUserEmail").innerHTML="*"}
+var Content=get("GuestBook_Content").value;
+if(Content.length<1){get("ReqContent").innerHTML="*必填";err=err+1;}else{get("ReqContent").innerHTML="*"}
+if(err>0){return false;}
+}
+</script>
+<form name="feedback-form" method="post" action="/sysaspx/saveMessage.aspx" onSubmit="javascript:return message_OnSubmit(this);" id="feedback-form">
+  <input type="hidden" name="GuestBook_CateId" id="GuestBook_CateId" value="81">
+  <input type="hidden" name="successMessage" id="successMessage" value="感谢您的参与！">
+  <input type="hidden" name="successUrl" id="successUrl" value="/Feedback.aspx">
+  <input type="hidden" name="errorMessage" id="errorMessage" value="对不起，提交失败，请重试！">
+  <input type="hidden" name="errorCodeMessage" id="errorCodeMessage" value="对不起，您输入的验证码值不对，请重试！">
+  <fieldset>
+    <legend>留言</legend>
+    <div class="field">
+      <label class="ui-label" for="GuestBook_Title">标题：</label>
+      <input name="GuestBook_Title" type="text" id="GuestBook_Title" class="ui-input">
+      <i id="ReqTitle" class="asterisk">*</i> </div>
+    <div class="field">
+      <label class="ui-label" for="GuestBook_UserName">姓名：</label>
+      <input name="GuestBook_UserName" type="text" id="GuestBook_UserName" class="ui-input">
+      <i id="ReqUserName" class="asterisk">*</i> </div>
+    <div class="field">
+      <label class="ui-label" for="GuestBook_UserTel">电话：</label>
+      <input name="GuestBook_UserTel" type="text" id="GuestBook_UserTel" class="ui-input">
+      <i id="ReqUserTel" class="asterisk">*</i> </div>
+    <div class="field">
+      <label class="ui-label" for="GuestBook_UserIM">I M ：</label>
+      <input name="GuestBook_UserIM" type="text" id="GuestBook_UserIM" class="ui-input">
+    </div>
+    <div class="field">
+      <label class="ui-label" for="GuestBook_UserEmail">Email：</label>
+      <input name="GuestBook_UserEmail" type="text" id="GuestBook_UserEmail" class="ui-input">
+      <i id="ReqUserEmail" class="asterisk">*</i> </div>
+    <div class="field">
+      <label class="ui-label" for="GuestBook_Content">内容：</label>
+      <textarea name="GuestBook_Content" rows="2" cols="20" id="GuestBook_Content"></textarea>
+      <i id="ReqContent" class="asterisk">*</i> </div>
+    <div class="field checkcode">
+      <label class="ui-label" for="ValidCode">验证码：</label>
+      <input name="ValidCode" type="text" id="ValidCode" class="ui-input">
+      <img src="/sysaspx/ValidCodeImage.aspx" onClick="this.src='/sysaspx/ValidCodeImage.aspx?code=1' + Math.random();" title="点击刷新验证码"> <i id="ReqValidCode" class="asterisk">*</i> </div>
+    <div class="field btn-field">
+      <input type="submit" value="确定" class="ui-btn ui-btn1">
+      <input type="reset" value="重填" class="ui-btn ui-btn2">      
+    </div>
+  </fieldset>
+</form>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

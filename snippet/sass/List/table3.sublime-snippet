@@ -1,0 +1,79 @@
+<snippet>
+	<content><![CDATA[
+/* career-list */
+.career-list {
+    table {
+        width: 100%;
+    }
+    th {
+        background: url(../images/th-bg.gif) repeat-x 0 100%;
+        padding: 0 15px;
+        line-height: 36px;
+        font-weight: 300;
+    }
+    .hd td {
+        padding: 0 15px;
+        line-height: 34px;
+        border-bottom: 1px dashed \$border-color;
+    }
+    .td-position {
+        padding-left: 30px;
+    }
+    .on {
+        position: relative;
+        td {
+            border-bottom: 0 none;
+        }
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            border: 6px dashed transparent;
+            font-size: 0;
+            width: 0;
+            height: 0;
+            overflow: hidden;
+            line-height: 0;
+            border-bottom-color: #e5e4e4;
+            border-bottom-style: solid;
+            left: 80px;
+            bottom: -1px;
+            z-index: 99;
+        }
+    }
+    .bd {
+        display: none;
+        padding: 20px 30px;
+        background: #cccbcb url(../images/bd-bg.gif) repeat-x;
+        color: #333;
+        
+    }
+    .ui-btn {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        color: #002f20;
+        padding: 0 15px;
+        line-height: 23px;
+        background: url(../images/btn-bg.gif) repeat-x;
+        display: inline-block;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .bd-r {
+        float: right;
+        width: 140px;
+        padding-left: 60px;
+        text-align: right;
+    }
+    .bd-l {
+        overflow: hidden;
+        *zoom: 1;
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-t2.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

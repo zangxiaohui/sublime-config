@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<span class="support">技术支持：<a href="http://www.35.com/" target="_blank">三五互联</a></span>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>35</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

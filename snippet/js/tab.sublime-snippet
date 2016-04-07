@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+\$(function(){
+    \$(".tab .tab_li").click(function(){
+        \$(this).parent().find(".tab_li").removeClass("tab_am");
+        \$(this).addClass("tab_am");
+        var cutNum=\$(this).parent().find(".tab_li").index(this);
+        \$(this).parents(".tab").find(".tab_con").hide();
+        \$(this).parents(".tab").find(".tab_con").eq(cutNum).show();
+    })
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jj-tab</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

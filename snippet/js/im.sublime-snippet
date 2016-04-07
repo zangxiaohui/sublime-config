@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\$(".im-btn").bind("click", function() {
+  if (\$('.im').css("right") == "0px") {
+    \$('.im').attr('style', 'right:-112px');
+  } else {
+    \$('.im').attr('style', 'right:0px');
+  }
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jj-im</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

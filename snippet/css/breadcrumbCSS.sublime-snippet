@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/* ==========================================================================
+   Breadcrumbs
+   ========================================================================== */
+.breadcrumb-bar { background: url(../images/bc-bg.gif) repeat-x;  line-height:42px;}
+.breadcrumb-bar h2 { float: left; }
+.breadcrumb-bar h2 a { color: #333; font: 14px microsoft yahei; }
+.breadcrumb { ${1:float: right;} }
+.breadcrumb li { float: left; padding-right: 5px; }
+.breadcrumb .bc-arr { font-family: simsun; }
+.breadcrumb li,
+.breadcrumb li a { }
+.breadcrumb li:last-of-type a { color:#006fc9; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bc.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

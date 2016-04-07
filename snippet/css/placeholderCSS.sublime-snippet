@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+:-moz-placeholder {
+ color: #${1:333};
+}
+::-webkit-input-placeholder {
+ color: #${1:333};
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cc-ph.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

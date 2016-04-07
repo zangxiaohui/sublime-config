@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/* 二维码 */
+.qr { position: fixed; _position: absolute; padding: 10px 10px 25px; width: 100px; height: 130px; border: 1px solid #f2f2f2; background: #fff }
+.qr-bd { margin-bottom: 10px }
+.qr-bd a{ display: block; width: 100px; height: 100px; background: url(../images/qrcode.gif) no-repeat; }
+.qr-ft p { line-height: 18px;}
+.qr-close { position: absolute; right: 0; bottom: 0; width: 18px; border: 1px solid #ccc; }
+.qr-close:hover { border-color: #f60; background-color: #f60; color:#fff; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>qr.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

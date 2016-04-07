@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="friendlink">${1:<span>友情链接</span>} 
+  <select name="" onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
+    <option selected>== ${1:<span>友情链接</span>} ==</option>
+    <!--Repeater TableName="Dcms_Link" Where="Link_State='1' and #Link_cateid=yqlg# " OrderBy="Link_Order Desc" SqlType="select" PrimaryKey="Link_Id" SelectDir="this" PageSize="100" IsPage="False"--> 
+    <!--Item-->
+    <option value="{Dcms_Link.Link_Url}">{Dcms_Link.Link_Title}</option>
+    <!--/Item--> 
+    <!--/Repeater-->
+  </select>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>friendlink</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

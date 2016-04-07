@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<ul class="pager">
+  <li class="previous"> 
+    <!--Repeater TableName="Dcms_News" Where="News_State='1' and News_Id>{Get.newsid,1} and News_cateid={Get.cateid,0}" OrderBy="News_Id Asc" SqlType="select" PrimaryKey="News_Id" SelectDir="thisandsub" PageSize="1" IsPage="False"--> 
+    <!--Item--> 
+    <i>&larr;</i> 前一篇： <a href="newsshow.aspx?Cateid={Dcms_News.News_CateId}&newsid={Dcms_News.News_Id}"> {Dcms_News.News_Title,60}</a> <!--/Item--> 
+    <!--/Repeater--></li>
+  <li class="next"><!--Repeater TableName="Dcms_News" Where="News_State='1'  and News_Id<{Get.newsid,1} and News_cateid={Get.cateid,0}" OrderBy="News_Id Desc" SqlType="select" PrimaryKey="News_Id" SelectDir="this" PageSize="1" IsPage="False"--> 
+    <!--Item--> 
+    <i>&rarr;</i> 后一篇： <a href="newsshow.aspx?Cateid={Dcms_News.News_CateId}&newsid={Dcms_News.News_Id}"> {Dcms_News.News_Title,60}</a><!--/Item--> 
+    <!--/Repeater--></li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pager</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

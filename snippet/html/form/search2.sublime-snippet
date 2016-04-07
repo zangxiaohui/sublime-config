@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<div class="search">
+  <form id="J_SearchForm" action="products.aspx" method="get" onsubmit="javascript:return search_OnSubmit(this);">
+    <div class="s-tab">
+      <div class="s-tab-selected"> 搜索条件一</div>
+      <ul>
+        <li>搜索条件一</li>
+        <li>搜索条件2</li>
+        <li>搜索条件3</li>
+      </ul>
+    </div>
+    <input type="text" name="q" value="" id="q" placeholder="请输入关键字">
+    <button type="submit" class="search-btn">查询</button>
+  </form>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>search2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

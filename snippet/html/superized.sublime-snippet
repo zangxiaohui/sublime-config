@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+<link href="../../cn/css/supersized.css" rel="stylesheet">
+<link href="../../cn/css/supersized.shutter.css" rel="stylesheet">
+<script src="../../cn/js/supersized.3.2.7.min.js"></script>
+<script src="../../cn/js/supersized.shutter.min.js"></script>
+
+<script>
+jQuery(function(\$) {
+	\$.supersized({
+		slide_interval: 3000,
+		transition: 1, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+		transition_speed: 700, // Speed of transition
+		slide_links: 'blank', // Individual links for each slide (Options: false, 'num', 'name', 'blank')
+		slides: [{
+			image: '../../cn/images/banner1.jpg'
+		}, {
+			image: '../../cn/images/banner2.jpg'
+		}, {
+			image: '../../cn/images/banner3.jpg'
+		}]
+	});
+});
+</script> 
+<!--Arrow Navigation--> 
+<a id="prevslide" class="load-item"></a> <a id="nextslide" class="load-item"></a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>superized</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

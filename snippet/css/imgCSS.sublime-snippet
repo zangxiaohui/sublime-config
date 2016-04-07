@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+/* imgArea */
+.imgArea { float: left; }
+.txtArea { overflow: hidden; *zoom:1;
+}
+.txtArea .desc { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; word-break: break-all; overflow: hidden; }
+/* thumbnail */
+.thumbnail-wrap { display: table; table-layout: fixed; }
+.thumbnail { display: table-cell; *display: block;
+text-align: center; vertical-align: middle; overflow: hidden; }
+.thumbnail img { max-width: 100%; max-height: 100%; _width: 100%; _height: 100%; vertical-align: middle; }
+.thumbnail i { display: inline-block; width: 0; height: 100%; vertical-align: middle; }/* ie6/7下可以使用此方法兼容 */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>img.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

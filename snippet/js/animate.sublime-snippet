@@ -1,0 +1,69 @@
+<snippet>
+	<content><![CDATA[
+//banner下面滑出菜单
+var \$M = \$(".index_menu_item");
+var bro = \$.browser;
+\$M.css({
+	"height": "0",
+	"paddingTop": "0",
+	"overflow": "hidden"
+});
+\$(".index-btn span").mouseover(function() {
+	if (bro.msie && bro.version < 7) {
+		var index = \$(this).index() - 12;
+		\$(this).parent().find("span").eq(index).addClass("cur1").siblings().removeClass("cur");
+	} else {
+		var index = \$(this).index();
+		//alert(index)
+		\$(this).addClass("cur").siblings().removeClass("cur");
+	}
+
+	\$M.eq(index).stop().animate({
+		"height": "306px",
+		"paddingTop": "14px",
+		"overflow": "visible",
+		"top": "-320px"
+	});
+}).mouseout(function() {
+	//var index = \$(this).index() - 4;
+	if (bro.msie && bro.version < 7) {
+		var index = \$(this).index() - 12;
+		\$(this).removeClass("cur");
+	} else {
+		var index = \$(this).index();
+		\$(this).removeClass("cur");
+	}
+	\$M.eq(index).stop().animate({
+		"height": "0",
+		"paddingTop": "0",
+		"overflow": "hidden",
+		"top": "0"
+	})
+});
+
+\$(".index_menu_item").mouseover(function() {
+	var index = \$(this).index();
+
+	\$(".index-btn span").eq(index).addClass("cur").siblings().removeClass("cur");
+	\$M.eq(index).stop().animate({
+		"height": "306px",
+		"paddingTop": "14px",
+		"overflow": "visible",
+		"top": "-320px"
+	});
+}).mouseout(function() {
+	var index = \$(this).index();
+	\$(".index-btn span").eq(index).removeClass("cur");
+	\$M.eq(index).stop().animate({
+		"height": "0",
+		"paddingTop": "0",
+		"overflow": "hidden",
+		"top": "0"
+	})
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jj-animate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

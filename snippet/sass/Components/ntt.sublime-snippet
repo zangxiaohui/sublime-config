@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+
+/* article */
+
+article {
+    .hd {
+        padding-bottom: 1px;
+        border-bottom: 1px dotted \$border-color;
+        text-align: center;
+        .title {
+            font: 22px microsoft yahei;
+            padding-bottom: 15px;
+        }
+        .byline {
+            span {
+                padding: 0 10px;
+            }
+        }
+    }
+    .bd {
+        padding: 15px 0;
+    }
+    .ft {
+        .toolbar {
+            @extend %clearfix;
+            li {
+                float: right;
+                padding: 0 5px;
+            }
+        }
+    }
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-ntt.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

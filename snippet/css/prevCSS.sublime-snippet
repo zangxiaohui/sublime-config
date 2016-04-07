@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+.prev, .next { position: absolute; top: 50%; cursor: pointer; }
+.tempWrap { margin: 0 auto; }
+.${1:banner} { position: relative; }
+.${1:banner} .prev,
+.${1:banner} .next { width: 33px; height: 71px; margin-top: -35px; }
+.${1:banner} .prev { background: url(../images/${1:banner}-prev.gif) no-repeat; left: 0; }
+.${1:banner} .next { background: url(../images/${1:banner}-next.gif) no-repeat; right: 0; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>prev.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

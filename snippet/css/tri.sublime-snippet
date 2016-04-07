@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/* arrow */
+.arrow { position: absolute; top: 50%; margin-top: -4px; }
+.arrow * { position: absolute; top: 0; left: 0; width: 0; height: 0; border: 0 dashed transparent; overflow: hidden; }
+/* arrow-right */
+.arr-r * { border-left-style: solid; border-width: 4px 0 4px 4px; }
+.arr-r em { left: 1px; }
+.arr-r span { border-left-color: #ff4a00; }
+.triangle { position: absolute; width: 0; height: 0; border: 0 dashed transparent; overflow: hidden; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tri.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.css</scope> -->
+</snippet>

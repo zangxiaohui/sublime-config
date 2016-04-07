@@ -1,0 +1,55 @@
+<snippet>
+	<content><![CDATA[
+.im {
+    position: fixed;
+    _position: absolute;
+    z-index: \$zindex-fixed;
+    right: -112px;
+    top: 120px;
+    width: 100px;
+    background-color: \$primary;
+    border: 3px solid #fff;
+    padding: 3px;
+    @include prefixed(box-shadow, -1px 1px 3px rgba(0, 0, 0, 0.2));
+    .im-wrap {
+        @include prefixed(border-radius, 6px);
+        background: #fff;
+        @include min-height(160px);
+    }
+    .im-hd {
+        text-align: center;
+        font: 14px/2 microsoft yahei;
+        color: \$primary;
+        border-bottom: 1px solid \$border-color;
+        i {
+            padding-right: 5px;
+        }
+    }
+    .im-bd {
+        padding: 10px 2px;
+        text-align: center;
+        li {
+            margin-bottom: 5px;
+        }
+    }
+    .im-btn {
+        @include prefixed(border-radius, 6px 0 0 6px);
+        width: 30px;
+        background-color: \$primary;
+        border: 3px solid #fff;
+        border-right: 0;
+        padding: 10px 0;
+        position: absolute;
+        top: -3px;
+        left: -33px;
+        color: #fff;
+        text-align: center;
+        font: 14px microsoft yahei;
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-im.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

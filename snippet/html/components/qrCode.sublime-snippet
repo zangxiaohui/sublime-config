@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="qr">
+  <div class="qr-bd"><img src="../../cn/images/qr.gif" alt="" width="80"></div>
+  <div class="qr-ft">微信扫一扫</div>
+  <span class="qr-close"></span> 
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>qr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

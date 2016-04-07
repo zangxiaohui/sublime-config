@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+\$(function() {
+	var thisBox = \$('.im');
+	var foldBtn = \$('.im .foldBtn');
+	var imWrap = \$('.im .im-wrap');
+	var closeBtn = \$('.im .im-wrap .close');
+	foldBtn.on('click', function() {
+		\$(this).hide();
+		imWrap.show();
+	});
+	closeBtn.on('click', function() {
+		slide_box.hide().hide();
+		foldBtn.show();
+	});
+});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jj-im2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

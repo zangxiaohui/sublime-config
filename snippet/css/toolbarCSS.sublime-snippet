@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/* ==========================================================================
+   toolbar
+   ========================================================================== */
+.toolbar { background: #f3f3f3; line-height:39px; }
+.toolbar li { float:right; padding: 0 15px; border-left: 1px solid #fff; }
+.toolbar li a { }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tb.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.html</scope> -->
+</snippet>

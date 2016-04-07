@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<div class="grid2col clearfix">
+  <div class="col-main"></div>
+  <div class="col-aside"></div>
+</div>
+${1:}
+/* 左栏定宽主栏自适应 */
+.col-main { float: right; padding-left: 240px; }
+.col-aside { float: left; width: 220px; margin-right: -220px; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>layout1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

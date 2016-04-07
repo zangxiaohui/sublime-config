@@ -1,0 +1,53 @@
+<snippet>
+	<content><![CDATA[
+<script>
+function message_OnSubmit() {
+  var err = 0;
+  var Uname = get("User_Name").value;
+  if(Uname.length < 1) {
+    get("ReqUname").innerHTML = "*请输入账号";
+    err = err + 1;
+  } else {
+    get("ReqUname").innerHTML = "*"
+  }
+  var Password1 = get("User_Password").value;
+  if(Password1.length < 1) {
+    get("ReqPassword1").innerHTML = "*请输入密码";
+    err = err + 1;
+  } else {
+    get("ReqPassword1").innerHTML = "*"
+  }
+  if(err > 0) {
+    return false;
+  }
+}
+</script>
+<div class="login-box">
+  <form id="login-form" name="login-form" method="post" action="/sysaspx/chkLogin.aspx" onSubmit="javascript:return message_OnSubmit(this);">
+    <input type="hidden" name="successMessage" id="successMessage" value="登录成功！" />
+    <input type="hidden" name="successUrl" id="successUrl" value="/EditUser.aspx" />
+    <input type="hidden" name="errorMessage" id="errorMessage" value="对不起，提交失败，请重试！" />
+    <input type="hidden" name="errorCodeMessage" id="errorCodeMessage" value="对不起，您输入的验证码值不对，请重试！" />
+    <fieldset>
+      <legend>登录</legend>
+      <div class="field">
+        <label for="User_Name">账号：</label>
+        <input type="text" name="User_Name" id="User_Name" value="" placeholder="邮箱/手机号" class="ui-input">
+      </div>
+      <div class="field">
+        <label for="User_Password">密码：</label>
+        <input name="User_Password" type="password" id="User_Password" class="ui-input">
+      </div>
+      <div class="field btn-field">
+        <input type="submit" value="登陆" class="ui-btn btn-1">
+      </div>
+      <div class="field other-field"> <a href="#" target="_blank" class="forget-pwd">忘记密码?</a> <a href="/accounts/register" class="lnk-reg">立即注册</a></div>
+    </fieldset>
+  </form>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>login</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="item-amount "><a href="#" class="minus">-</a>
+  <input type="text" value="2" class="text-amount" data-max="987" data-now="2" autocomplete="off">
+  <a href="#" class="plus">+</a></div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>amount</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+function qrCode() {
+    if (document.body.clientWidth >= 1230) {
+        \$(".qr").show();
+
+    } else {
+        \$(".qr").hide();
+    }
+}
+\$(window).bind("resize", function() {
+    qrCode();
+})
+\$(".qr-close").bind("click", function() {
+    \$(".qr").hide();
+
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jj-qr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

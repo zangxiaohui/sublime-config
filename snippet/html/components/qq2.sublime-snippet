@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<a target="blank" href="tencent://message/?uin=2647694061&amp;Site=&amp;Menu=yes"><img border="0" src="../../cn/images/qq3.png"  alt="点击这里给我发消息"></a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>qq2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

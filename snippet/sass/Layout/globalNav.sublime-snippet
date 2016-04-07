@@ -1,0 +1,55 @@
+<snippet>
+	<content><![CDATA[
+// ----------------------------------
+// Nav
+// ----------------------------------
+.navbar {
+    position: relative;
+    z-index: \$zindex-navbar;
+    @extend %min-width;
+    background: url(../images/nav-bg.gif) repeat-x;
+}
+
+/* primary */
+.globalnav {
+    @extend %wrapper;
+    li {
+        float: left;
+        a {
+            display: block;
+            padding: 0 35px;
+            font: 14px/#{\$nav-height} \$yahei;
+            color: #fff;
+        }
+        .dropdown {
+            display: none;
+            position: absolute;
+            z-index: \$zindex-dropdown;
+            background: #01388b;
+            a {
+                line-height: 38px;
+                &:hover {
+                    background: #013b8d;
+                    color: #fff;
+                }
+            }
+        }
+    }${1:
+    .nav-sep {
+        width: 2px;
+        height: \$nav-height;
+        background: url(../images/nav-sep.gif) no-repeat;
+    \}}
+    .active {
+        background: url(../images/nav-hover-bg.gif) repeat-x;
+        a {
+            @extend .active;
+        }
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-gn.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

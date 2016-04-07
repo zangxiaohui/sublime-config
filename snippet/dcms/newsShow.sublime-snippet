@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<article> 
+	<!--Repeater TableName="Dcms_News" Where="News_State='1' and News_Id={Get.NewsId,16} " OrderBy="News_AddTime Asc" SqlType="select" PrimaryKey="News_Id" SelectDir="this" PageSize="1" IsPage="False"--> 
+	<!--Item-->
+	<div class="hd">
+		<h1 class="title">{Dcms_News.News_Title}</h1>
+		<div class="byline"> ${2:<span class="source">来源：\{Dcms_News.News_Source\}</span><span class="author">作者：\{Dcms_News.News_Author\}</span>}<span class="add-time">发布时间：{Dcms_News.News_AddTime,yyyy-MM-dd}</span><span class="count">浏览：{Dcms_News.News_Count}</span>${1:<em class="fontSize"><strong>字号：</strong><span id="font14" onclick="javascript:doZoom(14)">T</span><span id="font16" onclick="javascript:doZoom(16)">T</span></em>}</div>
+	</div>
+	<div class="bd">{Dcms_News.News_Content}</div>
+	<div class="ft">
+		<ul class="toolbar">
+			<li class="back"> <a href="javascript:history.go(-1);" title="返回"><i class="icon-undo-2"></i>返回</a> </li>
+			<li class="print"><a href="#" title="打印" onclick="window.print();return false;"><i class="icon-print"></i>打印</a></li>
+		</ul>
+	</div>
+	<!--/Item--> 
+	<!--/Repeater--> 
+</article>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ntt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.html</scope> -->
+	<scope>text.html</scope>
+</snippet>

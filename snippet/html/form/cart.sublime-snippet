@@ -1,0 +1,49 @@
+<snippet>
+	<content><![CDATA[
+<table class="cart-table" summary="购物车">
+	<caption>
+	购物车
+	</caption>
+	<thead>
+		<tr>
+			<th class="th-item-pic">商品图片</th>
+			<th class="th-item">商品名称</th>
+			<th class="th-price">单价(元)</th>
+			<th class="th-amount">数量</th>
+			<th class="th-sum">小计</th>
+			<th class="th-op">操作</th>
+		</tr>
+	</thead>
+	<tbody class="cart-item">
+		<tr>
+			<td rowspan="2" class="td-item-pic"><a href="#" target="_blank"><img src="../../cn/images/cart-pic.gif" width="146" height="106"></a></td>
+			<td class="td-item"><a href="#">蓝牙音箱</a></td>
+			<td class="td-price">0.02</td>
+			<td class="td-amount"><div class="change-num"><a href="#" class="minus"><i class="icon-minus-alt"></i></a>
+					<input tyep="text" name="Cart[1676_0_buy]" value="2" class="text-amount" data-max="10" data-now="1" autocomplete="off">
+					<a href="#" class="plus"><i class="icon-plus-alt"></i></a></div></td>
+			<td class="td-sum">499元</td>
+			<td class="td-op"><a href="#" class="delete"><i class="icon-cancel-circle"></i>删除</a></td>
+		</tr>
+		<tr>
+			<td colspan="5" class="td-info"><ul>
+					<li>颜色分类 : 黑色 红色+USB充电器+车充 蓝色+USB充电器+车充 SOLE LOVE/红色 黑色+USB充电器+车充 蓝色</li>
+					<li>品牌: 倍加乐 型号: HT1051</li>
+				</ul></td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="6" class="shop-total"> 已选商品(不含运费)：<strong class="price">&yen;<em id="smallTotal">0.00</em></strong></td>
+		</tr>
+		<tr>
+			<td colspan="6" class="btn-area"><a class="ui-btn ui-btn1" href="#">继续购物</a> <a class="ui-btn ui-btn2" href="comfirm_order.asp">结账付款</a></td>
+		</tr>
+	</tfoot>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cart</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

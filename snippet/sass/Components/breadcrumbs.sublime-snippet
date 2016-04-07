@@ -1,0 +1,47 @@
+<snippet>
+	<content><![CDATA[
+// ---------------------------------------------------
+// Breadcrumbs
+// ---------------------------------------------------
+.breadcrumb-bar {
+    @extend %clearfix;
+    height: 52px;
+    line-height: 52px;
+    border-bottom: 1px solid \$border-color;
+    background: #fff;
+    h2 {
+        float: left;
+        font: 16px / 20px \$yahei;
+        color: \$primary;
+        border-left: 6px solid #e00025;
+        padding-left: 10px;
+        margin: 10px 0 10px 3px;
+    }
+}
+
+.breadcrumb {
+    padding-left: 20px;
+    float: left;
+    li {
+        float: left;
+        padding-left: 5px;
+        color: #666;
+        a {
+            color: #666;
+        }
+    }
+    li:last-of-type {
+        a {
+            color: \$primary;
+        }
+    }
+    .bc-arr {
+        font-family: simsun;
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-bc.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

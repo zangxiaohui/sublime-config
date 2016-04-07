@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+.lang { float: right; }
+.lang a { float: left; color: #040000; margin-left: 10px; padding-left: 21px; }
+.lang .cn { background: url(../images/cn.gif) no-repeat 0; padding-left: 23px; }
+.lang .en { background: url(../images/en.gif) no-repeat 0; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cc-lang.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<div class="${1:focus}">
+  <ul class="${1:focus}-pic">
+    <li><a href=""><img src="../../cn/images/${1:focus}-pic.jpg" alt=""></a></li>
+    <li><a href=""><img src="../../cn/images/${1:focus}-pic.jpg" alt=""></a></li>
+    <li><a href=""><img src="../../cn/images/${1:focus}-pic.jpg" alt=""></a></li>
+  </ul>
+  <div class="${1:focus}-nav">
+    <div class="sPrev"><i class="arrow arr-l"><em></em><span></span></i></div>
+    <div class="sNext"><i class="arrow arr-r"><em></em><span></span></i></div>
+    <div class="thumb">
+      <ul>
+        <li><a href=""><img src="../../cn/images/${1:focus}-pic.jpg" alt=""></a></li>
+        <li><a href=""><img src="../../cn/images/${1:focus}-pic.jpg" alt=""></a></li>
+        <li><a href=""><img src="../../cn/images/${1:focus}-pic.jpg" alt=""></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scroll</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

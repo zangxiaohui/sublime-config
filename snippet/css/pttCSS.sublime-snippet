@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+.pro-title h3 { float: left; font-size: 14px; }
+.pro-title .toolbar { float: right; }
+.toolbar li { float: right; padding: 0 5px; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ptt.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

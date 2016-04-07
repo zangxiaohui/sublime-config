@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<figure class="effect-apollo"><img src="../../cn/images/pic.gif" alt="">
+  <figcaption>
+    <h2>Strong <span>Apollo</span></h2>
+    <p>Apollo's last game of pool was so strange.</p>
+    <a href="#">View more</a> </figcaption>
+</figure>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>figure1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

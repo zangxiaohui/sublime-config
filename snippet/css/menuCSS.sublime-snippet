@@ -1,0 +1,49 @@
+<snippet>
+	<content><![CDATA[
+/* ==================================
+   menu
+   ================================== */
+.menu { position: relative; float: right; width: 150px; }
+/* menu-hd */
+.menu-hd { position: relative; z-index: 10002; overflow: hidden; padding: 0 10px; height: 22px; line-height: 22px; background: #fff; }
+.menu-hd a { float: left; margin-right: 15px; }
+/* menu-bd */
+.menu-bd { display: none; position: absolute; z-index: 10001; left: 0; top: 100%; margin-top: -1px; padding: 5px 0; border: 1px solid #ddd; background: #fff; width: 200px; }
+.menu-bd li a { display: block; padding: 0 9px; line-height: 24px; *zoom:1;
+}
+/* menu arrow */
+.menu-hd .arrow { -webkit-transition: .3s ease-in; -moz-transition: .3s ease-in; -o-transition: .3s ease-in; transition: .3s ease-in; width: 6px; height: 6px; right: 10px; }
+.arr-b * { border-top-style: solid; border-width: 4px 4px 0; }
+.arr-b span { border-top-color: #a0a0a0; }
+/* menu hover */
+.menu-hover .menu-hd { padding: 0 9px 1px; border-width: 0 1px; border-style: solid; border-color: #f00; background: #fafafa; }
+.menu-hover .menu-hd .arrow { -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); }
+.menu-hover .menu-bd li a:hover { background: #eee; }
+
+
+/* ==================================
+   menu
+   ================================== */
+/* menu-hd */
+.menu-hd { position: relative; z-index: 10002; overflow: hidden; height: 30px; line-height: 30px; padding-right: 15px; padding: 0 20px 0 6px; }
+.menu-hd a { }
+/* menu-bd */
+.menu-bd { display: none; position: relative; z-index: 10001; margin-top: -1px; }
+.menu-bd-panel { padding: 5px 0; border: 1px solid #eee; background: #fff; position: absolute; left: 0; top: 0; }
+.menu-bd-panel a { display: block; padding: 0 5px; line-height: 28px; white-space: nowrap; color: #6C6C6C }
+/* menu arrow */
+.menu-hd .fa { -webkit-transition: .3s ease-in; -moz-transition: .3s ease-in; -o-transition: .3s ease-in; transition: .3s ease-in; position: absolute; height: 30px; line-height: 30px; top: 0; right: 6px; }
+/* menu hover */
+.menu-hover .menu-hd { padding: 0 19px 1px 5px; border-width: 0 1px; border-style: solid; border-color: #eee; background: #fff; }
+.menu-hover .menu-hd .fa { -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); }
+.menu-hover .menu-bd-panel a:hover { background: #eee; }
+.site-map .menu-bd .menu-bd-panel { overflow: hidden; *zoom:1;
+right: 0; left: auto; width: 1180px; padding: 18px 9px; }
+.site-map .mod { float: left; width: 20%; overflow: hidden; }
+.site-map .mod-wrap { border-right: 1px solid #eee; padding: 0 0 0 5px; margin-right: 20px; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>menu.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

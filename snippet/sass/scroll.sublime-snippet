@@ -1,0 +1,104 @@
+<snippet>
+	<content><![CDATA[
+.focus {
+    width: 310px;
+    .focus-pic {
+        height: 310px;
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: 310px;
+        }
+    }
+    .focus-nav {
+        margin-top: 10px;
+        position: relative;
+        padding: 0 20px;
+    }
+    .thumb {
+        li {
+            float: left;
+            width: 72px;
+            height: 72px;
+            margin: 4px 3px 0;
+            a {
+                display: block;
+                padding: 1px;
+                width: 70px;
+                height: 70px;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .on {
+            position: relative;
+            a {
+                border: 1px solid #f60;
+                padding: 0;
+            }
+            &:after {
+                content: "";
+                @include triangle(top, 4px, red);
+                top: -4px;
+            }
+        }
+    }
+}
+
+.focus .sPrev,
+.focus .sNext {
+    position: absolute;
+    top: 4px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 16px;
+    height: 70px;
+}
+
+.tempWrap {
+    margin: 0 auto;
+}
+
+.focus .sPrev {
+    left: 0;
+}
+
+.focus .sNext {
+    right: 0;
+}
+
+/* arrow */
+.focus .arrow {
+    position: absolute;
+    margin-top: -8px;
+    width: 8px;
+    height: 16px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.focus .arr-l {
+    left: 5px;
+    @include arrow(left, 8px, 2px, #fff, #aaa);
+}
+
+.focus .arr-r {
+    right: 5px;
+    @include arrow(right, 8px, 2px, #fff, #aaa);
+}
+
+.focus .sPrev:hover  {
+    @include hoverArr(left,#fff,#f60);
+}
+.focus .sNext:hover  {
+    @include hoverArr(right,#fff,#f60);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger></tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

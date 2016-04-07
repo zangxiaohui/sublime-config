@@ -1,0 +1,70 @@
+<snippet>
+	<content><![CDATA[
+/* menu */
+.menu {
+    position: relative;
+    float: left;
+    width: 145px;
+    .menu-hd {
+        position: relative;
+        overflow: hidden;
+        height: 28px;
+        line-height: 28px;
+        padding: 0 10px;
+        background: \$second;
+        z-index: \$zindex-big;
+        .arrow {
+            @include prefixed(transition, 0.3s ease-in);
+            width: 6px;
+            height: 6px;
+            right: 10px;
+            @include arrow(bottom, 4px, 1px, white, \$primary);
+        }
+    }
+    .menu-bd {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        margin-top: -1px;
+        padding: 5px 0;
+        border: 1px solid \$border-color;
+        z-index: \$zindex-small;
+        background: #fff;
+        width: 200px;
+        li {
+            a {
+                display: block;
+                padding: 0 9px;
+                line-height: 24px;
+                *zoom: 1;
+            }
+        }
+    }
+}
+
+.menu-hover {
+    .menu-hd {
+        padding: 0 9px 1px;
+        border-width: 0 1px;
+        border-style: solid;
+        border-color: #f00;
+        background: #fafafa;
+        .arrow {
+            @include prefixed(transform, rotate(180deg));
+        }
+    }
+    .menu-bd li {
+        a {
+            &:hover {
+                background: #eee;
+            }
+        }
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-menu.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

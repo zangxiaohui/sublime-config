@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+.star { display: inline-block; width: 45px; height: 14px; background: url(../images/newicon.png) no-repeat; }
+.sa5 { background-position: -109px -239px; }
+.sa4 { background-position: -124px -239px; }
+.sa3 { background-position: -139px -239px; }
+.sa2 { background-position: -154px -239px; }
+.sa1 { background-position: -169px -239px; }
+.sa0 { background-position: -184px -239px; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cc-star.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

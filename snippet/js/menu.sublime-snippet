@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+\$(function() {
+    \$(".menu").hover(function() {
+        \$(this).find(".menu-bd").show();
+        \$(this).addClass("menu-hover");
+    }, function() {
+        \$(this).find(".menu-bd").hide();
+        \$(this).removeClass("menu-hover");
+    });
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jj-menu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

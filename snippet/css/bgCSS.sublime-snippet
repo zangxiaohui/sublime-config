@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+background: ${6:}url(../images/${1:}.${2:gif}) ${3:no-repeat}${4:repeat-x}${5:};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bgg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccFFFFFF, endColorstr=#ccFFFFFF) \\8; background-color: rgba(255,255,255,.8);
+${2:
+5 = 7f
+6 = 99
+7 = b2
+9 = e5
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>opa.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

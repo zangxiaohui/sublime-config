@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+/*返回顶部*/
+function toTopHide() {
+  if (document.documentElement.scrollTop + document.body.scrollTop > 0) {
+    document.getElementById("toTop").style.display = "block";
+  } else {
+    document.getElementById("toTop").style.display = "none";
+  }
+}
+\$(function() {
+  //返回顶部
+  \$(window).scroll(function() {
+    toTopHide();
+    \$("#toTop").click(function() {
+      window.scrollTo(0, 0);
+      return false;
+    });
+  });
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jj-top</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

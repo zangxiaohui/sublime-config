@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+.qr {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: 520px;
+    border: 1px solid \$border-color;
+    background: #fff;
+    width: 100px;
+    padding: 20px 0 5px;
+    text-align: center;
+    z-index: \$zindex-fixed;
+    .qr-close {
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        width: 17px;
+        height: 17px;
+        cursor: pointer;
+        overflow: hidden;
+        background-image: url("../images/sprite.png");
+        background-position: -178px -360px;
+        background-repeat: no-repeat;
+        border: 1px solid \$border-color;
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-qr.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

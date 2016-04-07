@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<div class="${1:mod}">
+	<div class="${1:mod}-wrap">
+		<div class="${1:mod}-hd">
+			<h2><a href="#">关于我们</a></h2>
+		    ${2:<a class="more" href="#">More+</a>}</div>
+		<div class="${1:mod}-bd"></div>
+		${3:<div class="${1:mod}-ft"></div>}
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mod</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

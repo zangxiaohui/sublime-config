@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+jQuery(".career-list").slide({
+	titCell: ".hd",
+	targetCell: ".bd",
+	defaultIndex: 0,
+	effect: "slideDown",
+	returnDefault: true,
+	defaultPlay: true,
+	easing: "easeOutBounce"
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jj-career</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

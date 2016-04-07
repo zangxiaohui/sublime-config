@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/* more */
+.more { position: relative; padding: 0 10px 0 5px; border: 1px solid #eee; }
+.more .arrow { right: 10px; }
+.more:hover { border: 1px solid #f60; background: #f60; color: #fff; }
+.more:hover .arr-r em { border-left-color: #fff; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>more.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

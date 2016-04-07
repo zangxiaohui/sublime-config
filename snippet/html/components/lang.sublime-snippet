@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<div class="lang">
+	<a class="cn" href="#" title="中文">中文</a>
+	<a class="en" href="#" title="English">English</a>${1:}
+	<a class="jp" href="#" title="Japanese">日本語</a>
+	<a class="kr" href="#" title="대한민국">대한민국</a>
+	<a class="de" href="#" title="German">Deutsch</a>
+	<a class="es" href="#" title="Spanish">Español</a>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lang</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

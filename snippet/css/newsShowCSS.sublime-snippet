@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/* ${1:article} */
+${1:article} { }
+${1:article} .hd { padding-bottom: 1px; border-bottom: 1px dotted #ddd; text-align: center; }
+${1:article} .hd .title { font: 22px microsoft yahei; padding-bottom: 15px; }
+${1:article} .hd .byline { }
+${1:article} .hd .byline span { padding: 0 10px; }
+${1:article} .bd { padding: 15px 0; }
+${1:article} .ft .toolbar li { float: right; padding: 0 5px; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ntt.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+.${1:focus} { margin: 20px auto; width: 660px; }
+.${1:focus}-pic { height: 500px; }
+.${1:focus}-pic img { width: 100%; height: 500px; }
+.${1:focus}-nav { margin-top: 10px; position: relative; padding: 0 20px; }
+.${1:focus} .thumb li { float: left; width: 72px; height: 72px; margin: 4px 3px 0; }
+.${1:focus} .thumb li a { display: block; padding: 1px; width: 70px; height: 70px; }
+.${1:focus} .thumb li img { width: 100%; height: 100%; }
+.${1:focus} .thumb .on a { border: 1px solid #f60; padding: 0; }
+.${1:focus} .thumb .on { position: relative; }
+.${1:focus} .thumb .on:after { content: ""; position: absolute; width: 0; height: 0; border: 0 dashed transparent; overflow: hidden; border-bottom-style: solid; border-width: 0 4px 4px; border-bottom-color: #f60; left: 50%; margin-left: -4px; top: -4px; }
+.${1:focus} .sPrev,
+.${1:focus} .sNext { position: absolute; top: 4px; cursor: pointer; background: #fff; border: 1px solid #ddd; width: 16px; height: 70px; }
+.tempWrap { margin: 0 auto; }
+.${1:focus} .sPrev { left: 0; }
+.${1:focus} .sNext { right: 0; }
+/* arrow */
+.${1:focus} .arrow { position: absolute; margin-top: -8px; width: 8px; height: 16px; }
+.${1:focus} .arr-l { left: 5px; }
+.${1:focus} .arr-r { right: 5px; }
+.${1:focus} .arr-l * { border-right-style: solid; border-width: 8px 8px 8px 0; }
+.${1:focus} .arr-l em { border-right-color: #aaa; left: -2px; }
+.${1:focus} .arr-l span { border-right-color: #fff; }
+.${1:focus} .arr-r * { border-left-style: solid; border-width: 8px 0 8px 8px; }
+.${1:focus} .arr-r em { border-left-color: #aaa; left: 2px; }
+.${1:focus} .arr-r span { border-left-color: #fff; }
+.${1:focus} .sPrev:hover .arr-l em { border-right-color: #f60; }
+.${1:focus} .sNext:hover .arr-r em { border-left-color: #f60; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scroll.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

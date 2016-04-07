@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+/* ${1:news} */
+.${1:news}-list {
+    li {
+        border-bottom: 1px dashed \$border-color;
+        line-height: 30px;
+        h3 {
+            a {
+                color: #333;
+                &:hover {
+                    color: #f60;
+                }
+            }${2:
+            span {
+                float: right;
+            \}}
+        }
+        .desc {
+            color: #666;
+        }
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-l2.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<ul class="${1:news}-list">
+  <li>
+    <h3>${2:<span>2014-01-01</span>}<a href="#">标题文字标题文字标题文字标题文字</a></h3>
+    <div class="desc">
+      <p>说明文字说明文字说明文字说明文字说明文字 </p>
+    </div>
+  </li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>l2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

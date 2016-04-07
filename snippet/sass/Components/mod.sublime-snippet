@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+/* ${1:mod} */
+
+.mod {
+    float: left;
+}
+
+.mod-wrap {
+    border: 1px solid \$border-color;
+}
+
+.mod-hd {
+    height: \$mod-hd-height;
+    line-height: \$mod-hd-height;
+    background: url(../images/mod-hd-bg.gif) repeat-x;
+    border-bottom: 1px solid \$border-color;
+    @extend %clearfix;
+    overflow: hidden;
+    h2 {
+        float: left;
+        padding-left: 15px;
+        a {
+            color: \$primary;
+            font: 300 14px/#{\$mod-hd-height} microsoft yahei;
+        }
+    }
+    .more {
+        float: right;
+    }
+}
+
+.mod-bd {
+    overflow: hidden;
+    padding: 10px;
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-mod.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

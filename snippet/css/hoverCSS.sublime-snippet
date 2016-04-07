@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+.${1:pro-list} .pic::after { content: ' '; display: block; position: absolute; left: -150px; top: 0; width: 50%; height: 100%; background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); backg--round-color: red; -webkit-transform: skewx(-25deg); -webkit-transition: 0s; }
+.${1:pro-list} .pic:hover::after { left: 250px; -webkit-transition: 0.8s; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cc-hover1.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

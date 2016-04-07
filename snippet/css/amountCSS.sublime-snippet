@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+.item-amount { width: 77px; height: 25px; overflow: hidden; position: relative; z-index: 1 }
+.item-amount a, .text-amount { float: left }
+.text-amount { width: 39px; height: 15px; line-height: 15px; border: 1px solid #aaa; color: #343434; text-align: center; padding: 4px 0; background-color: #fff; background-position: -75px -375px; position: absolute; z-index: 2; left: 18px; top: 0 }
+.item-amount a { display: block; height: 23px; width: 17px; border: 1px solid #e5e5e5; background: #f0f0f0; text-align: center; line-height: 23px; color: #444; position: absolute; top: 0 }
+.item-amount .minus, .item-amount .no-minus { border-right-color: transparent; left: 0 }
+.item-amount .no-plus, .item-amount .plus { border-left-color: transparent; right: 0 }
+.item-amount .minus:hover, .item-amount .plus:hover { color: #f50; z-index: 3; border-color: #f60 }
+.item-amount a:hover { text-decoration: none }
+.item-amount .no-minus, .item-amount .no-plus { color: #e5e5e5 }
+.item-amount .no-minus:hover { cursor: default; border-color: #e5e5e5; border-right-color: #aaa; color: #e5e5e5 }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cc-amount.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

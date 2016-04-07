@@ -1,0 +1,55 @@
+<snippet>
+	<content><![CDATA[
+// ---------------------------------------------------
+// Sidenav
+// ---------------------------------------------------
+.overview {
+    background: url(../images/ov-bg.gif) no-repeat;
+    padding-left: 20px;
+    color: #${3:fff};
+    font: 300 ${1:16}px/${2:37}px \$yahei;
+}
+
+%sn-hover {
+    color: #fff;
+    background: \$primary;
+}
+
+.sidenav {
+    li {
+        
+        a {
+            display: block;
+            padding: 6px 30px;
+            color: #333;
+            border-bottom: 1px solid \$border-color;
+            &:hover {
+                @extend %sn-hover;
+            }
+        }
+    }
+    .active a {
+        @extend %sn-hover;
+    }
+    .level2 {
+        background: #f6f6f6;
+        padding: 8px 0;
+        border-bottom: 1px solid \$border-color;
+        *zoom: 1;
+        a {
+            color: #666;
+            background: none;
+            border-bottom: 0 none;
+        }
+        a:hover {
+            color: #000;
+        }
+    }
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-sn.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

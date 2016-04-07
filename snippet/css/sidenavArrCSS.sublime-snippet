@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+.sidenav .arr-r { left:200px; top: 11px; margin: 0; }
+.sidenav .arr-r em { border-left-color: #0e78ab; }
+.sidenav .arr-r span { border-left-color: #f8f8f8; }
+.sidenav li a:hover .arr-r em, .sidenav .active a .arr-r em { border-left-color: #f8f8f8; }
+.sidenav li a:hover .arr-r span, .sidenav .active a .arr-r span { border-left-color: #20a8e9; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>snarr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

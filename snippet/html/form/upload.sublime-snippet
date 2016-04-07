@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<td rowspan="5" class="td-photo"><div class="user-photo">
+    <div class="img-box"><img src="../../cn/images/user_large1.jpg" id="img_xx" alt=""/></div>
+    <a class="upload-photo" id="imgUploadFile" data-name="Filedata"  href="javascript:;"><img src="../../cn/images/image_file_btn.png"></a>
+    <div class="upload-input-box">
+      <input class="upload-input" type="file" name="my-file" id="my-file" accept="*.png;*.jpeg;*.gif;*.jpg" hidefocus="true" onChange="inputFileOnChange(this)">
+    </div>
+  </div></td>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>upload</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

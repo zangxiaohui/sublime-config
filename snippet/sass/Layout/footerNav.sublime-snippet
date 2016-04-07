@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+.footer-nav {
+    @extend %clearfix;
+}
+
+.fn-col {
+    float: left;
+    h3 {
+        color: #${2:333};
+        font-size: ${1:18}px;
+    }
+    ul {
+        padding-right: ${4:30px};
+        li {
+            a {
+                color: #${3:333};
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-fn.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

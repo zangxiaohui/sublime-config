@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<div class="sub-banner"><img src="../../cn/images/sub-banner${1:1}.jpg" alt=""></div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>subbanner2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

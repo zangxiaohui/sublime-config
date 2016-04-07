@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<a class="icp" href="http://www.miitbeian.gov.cn" target="_blank">苏ICP备：${1:8888888号}</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>beian</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

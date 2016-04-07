@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+<table class="${1:career}-table">
+	<colgroup>
+	<col width="40%">
+	<col width="15%">
+	<col width="15%">
+	<col width="15%">
+	<col width="15%">
+	</colgroup>
+	<tbody>
+		<tr>
+			<th>职位名称</th>
+			<th>人数</th>
+			<th>地点</th>
+			<th>发布时间</th>
+			<th>详细信息</th>
+		</tr>
+		<!--Repeater TableName="Dcms_Position" Where="Position_State='1' and #Position_CateId={Get.CateId,91}# " OrderBy="Position_Order Asc" SqlType="select" PrimaryKey="Position_Id" SelectDir="this" PageSize="6" IsPage="True"--> 
+		<!--Item-->
+		<tr >
+			<td><a href="careerShow.aspx?Cateid={Dcms_Position.Position_CateId}&positionid={Dcms_Position.Position_Id}">{Dcms_Position.Position_Title,30}</a></td>
+			<td>{Dcms_Position.Position_Num}</td>
+			<td>{Dcms_Position.Position_Area}</td>
+			<td>{Dcms_Position.Position_AddTime,yyyy-MM-dd}</td>
+			<td><a href="careerShow.aspx?Cateid={Dcms_Position.Position_CateId}&positionid={Dcms_Position.Position_Id}">详细信息</a></td>
+		</tr>
+		<!--/Item--> 
+		<!--/Repeater-->
+	</tbody>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>t2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

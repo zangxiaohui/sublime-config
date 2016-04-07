@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<style>
+.checkbox { position: relative; display: inline-block; width: 18px; height: 18px; overflow: hidden; vertical-align: middle; }
+.checkbox input { position: absolute; z-index: 0; left: -20px; top: -20px; }
+.checkbox label { position: relative; z-index: 1; float: left; width: 18px; height: 18px; line-height: 200em; overflow: hidden; cursor: pointer; background: url(../images/i-chk.png) no-repeat; }
+.checkbox-checked label { background-position: 0 -24px; }
+.tsl { margin-left: 5px; vertical-align: middle; }
+</style>
+<div  class="field">
+  <div class="checkbox checkbox-checked">
+    <input class="i-chk" id="J_SetDefault" type="checkbox" name="" value="" checked="">
+    <label for="J_SetDefault">记住密码</label>
+  </div>
+  <label class="tsl">记住密码</label>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>checkbox</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

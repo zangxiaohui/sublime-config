@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="pro-title clearfix">
+  <h3><i class="icon-attachment"></i>{Dcms_Products.Products_Title}</h3>
+  <ul class="toolbar">
+    <li class="back"> <a href="javascript:history.go(-1);" title="返回"><i class="icon-undo-2"></i>返回</a> </li>
+    <li class="print"><a href="#" title="打印" onclick="window.print();return false;"><i class="icon-print"></i>打印</a></li>
+  </ul>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ptt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

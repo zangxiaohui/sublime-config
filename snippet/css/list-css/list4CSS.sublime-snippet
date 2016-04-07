@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/* ${1:pro} */
+.${1:pro}-list { margin-right: -10px; }
+.${1:pro}-list li { float: left; margin: 0 10px 10px 0; width: 200px; _display:inline; }
+.${1:pro}-list li .thumbnail-wrap,
+.${1:pro}-list li .thumbnail { width: 200px; height: 100px; }
+.${1:pro}-list li .caption { text-align: center; line-height: 30px; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cc-l4.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

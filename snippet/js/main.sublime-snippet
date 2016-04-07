@@ -1,0 +1,119 @@
+<snippet>
+	<content><![CDATA[
+\$(function() {
+	/*滚动固定*/
+	\$(window).scroll(function() {
+		nowtop = parseInt(\$(document).scrollTop());
+		if (nowtop > 0) {
+			\$(".container").addClass("ui-fixed");
+		} else {
+			\$(".container").removeClass("ui-fixed");
+		}
+	});
+
+
+
+	\$(".J_expandBtn").bind("click", function() {
+		\$(this).parent().toggleClass("filter-sect-expand");
+		if (\$(this).children(".fa").attr("class") == "fa fa-minus-square")
+			\$(this).children(".fa").attr("class", "fa fa-plus-square");
+		else {
+			\$(this).children(".fa").attr("class", "fa fa-minus-square");
+		}
+	});
+
+	\$(".J-filter-all-btn").bind("click", function() {
+
+		if (\$(this).find(".filter-sect").attr("class") == "filter-sect none")
+			\$(this).find(".filter-sect").attr("class", "filter-sect");
+		else {
+			\$(this).find(".filter-sect").attr("class", "fa fa-minus-square");
+		}
+	});
+
+	\$("#btn_grid").click(function() {
+		\$("#btn_list").children().removeClass("active");
+		\$(this).children().addClass("active");
+		\$("#m_pro").children().attr("class", "grid");
+	});
+
+	\$("#btn_list").click(function() {
+		\$("#btn_grid").children().removeClass("active");
+		\$(this).children().addClass("active");
+		\$("#m_pro").children().attr("class", "list");
+	});
+
+	\$(".J-filter-all-btn").click(function() {
+		if (\$(this).children().attr("class") == "fa fa-chevron-down") {
+			\$(".filter-sect").removeClass("none");
+			\$(this).children().attr("class", "fa fa-chevron-up");
+		} else if (\$(this).children().attr("class") == "fa fa-chevron-up") {
+			\$(".filter-sect").not(\$(".filter-sect").eq(0)).not(\$(".filter-sect").eq(1)).addClass("none");
+			\$(this).children().attr("class", "fa fa-chevron-down");
+		}
+
+	});
+
+	\$(".pop-close").bind("click", function() {
+		\$(this).parent().hide()
+	});
+	\$(".tit-r li").hover(function() {
+		\$(".tit-r li").removeClass("current");
+		\$(this).addClass("current");
+	}, function() {
+		\$(this).removeClass("current");
+	});
+	\$(".tit-r").hover(function() {
+
+
+	}, function() {
+		\$(".tit-r li[flag='1']").addClass("current");
+
+	});
+
+})
+
+function closediv() {
+	\$("#online-box").remove();
+
+}
+
+function popupDiv(div_id) {
+	//根据自己需求注意宽度和高度的调整
+	var iWidth = document.documentElement.clientWidth;
+	var iHeight = document.documentElement.clientHeight;
+	//遮罩层
+	var bgObj = document.createElement("div");
+	bgObj.setAttribute("id", "bgObj"); //设置ID
+	bgObj.setAttribute("onclick", "hideDiv('" + div_id + "')");
+	bgObj.style.cssText = "position:absolute;left:0px;top:0px;width:" + Math.max(document.body.scrollWidth, iWidth) + "px;height:" + Math.max(document.body.scrollHeight, iHeight) + "px;filter:Alpha(Opacity=30);opacity:0.7;background-color:#000000;z-index:20000;";
+	document.body.appendChild(bgObj);
+
+	var div_obj = \$("#" + div_id);
+	var windowWidth = document.documentElement.clientWidth;
+	var windowHeight = document.documentElement.clientHeight;
+	var popupHeight = div_obj.height();
+	var popupWidth = div_obj.width();
+	div_obj.fadeIn(500);
+	div_obj.css({
+		"position": "fixed",
+		"z-index": "30000",
+		"left": windowWidth / 2 - popupWidth / 2,
+		"top": windowHeight / 2 - popupHeight / 2
+	}).animate({
+		opacity: "show"
+	}, "slow");
+}
+
+function hideDiv(div_id) {
+	\$("#bgObj").remove();
+	\$("#" + div_id).fadeOut(500);
+
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jj-main</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<ul class="toolbar">
+  <li class="back"> <a href="javascript:history.go(-1);" title="返回"><i class="icon-undo-2"></i>返回</a> </li>
+  <li class="toTop"><a href="#" target="_self" title="返回顶部" onClick="window.scrollTo(0,0);return false"><i class="icon-arrow-up-2"></i>顶部</a></li>
+  <li class="print"><a href="#" title="打印" onclick="window.print();return false;"><i class="icon-print"></i>打印</a></li>
+  <li class="mail"><a href="mailto:" title="邮箱"><i class="icon-envelope"></i>邮箱</a></li>
+  <li class="feedback"><a href="#" title="客户留言"><i class="icon-bubble-2"></i>留言</a></li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

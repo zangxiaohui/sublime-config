@@ -1,0 +1,83 @@
+<snippet>
+	<content><![CDATA[
+
+.scroll-cont {
+    position: relative;
+    width: 100%;
+    height: 330px;
+    overflow: auto;
+}
+
+.mCSB_container {
+    width: auto;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.mCSB_scrollTools a + .mCSB_draggerContainer {
+    margin: 20px 0;
+}
+
+.mCSB_scrollTools {
+    width: 12px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    .mCSB_draggerContainer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: auto;
+        *height: 100%;
+        .mCSB_draggerRail {
+            width: 3px;
+            height: 100%;
+            margin: 0 auto;
+            background: #a9a9a9;
+        }
+        .mCSB_dragger {
+            cursor: pointer;
+            width: 100%;
+            height: 30px;
+            *left: 0;
+            .mCSB_dragger_bar {
+                width: 12px;
+                height: 100%;
+                margin: 0 auto;
+                background: url(../images/drag-bg.png) no-repeat;
+            }
+            &:hover {
+                .mCSB_dragger_bar {
+                    @include opacity(85);
+                }
+            }
+            &:active {
+                .mCSB_dragger_bar {
+                    @include opacity(90);
+                }
+            }
+        }
+    }
+    .mCSB_buttonUp,
+    .mCSB_buttonDown {
+        display: block;
+        position: absolute;
+        height: 20px;
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        cursor: pointer;
+        background: #f00;
+    }
+    .mCSB_buttonDown {
+        bottom: 0;
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-mcs.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.sass</scope> -->
+</snippet>

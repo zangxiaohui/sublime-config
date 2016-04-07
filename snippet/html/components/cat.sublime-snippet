@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+<div id="div_cat" class="cat">
+  <h2 class="cat-hd"> 快速入口 </h2>
+  <div id="div_catbd" class="cat-bd">
+    <div class="cat-menu">
+      <ul id="ul_one" class="cat-menu-bd">
+        <li class="cat-item1"><s class="cat-icon"></s><a href="">网上下单</a></li>
+        <li class="cat-item2"><s class="cat-icon"></s><a href="">运单查询</a><i class="arrow arr-r"><em></em><span></span></i></li>
+        <li class="cat-item3"><s class="cat-icon"></s><a href="">WMS查询</a><i class="arrow arr-r"><em></em><span></span></i></li>
+        <li class="cat-item4"><s class="cat-icon"></s><a href="">TMS查询</a></li>
+        <li class="cat-item5"><s class="cat-icon"></s><a href="">货代业务查询</a></li>
+        <li class="cat-item6"><s class="cat-icon"></s><a href="">时效价格查询</a></li>
+        <li class="cat-item7"><s class="cat-icon"></s><a href="">网点查询</a></li>
+        <li class="cat-item8"><s class="cat-icon"></s><a href="">在线客服咨询</a></li>
+        <li class="cat-item9 last"><s class="cat-icon"></s><a href="">投诉建议</a></li>
+      </ul>
+    </div>
+    <div id="ul_two" class="cat-cont">
+      <ul>
+        <li><a href="">CARGO6查询</a></li>
+        <li><a href="">CARGO6查询</a></li>
+        <li><a href="">CARGO6查询</a></li>
+        <li><a href="">CARGO6查询</a></li>
+        <li><a href="">CARGO6查询</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cat</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

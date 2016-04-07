@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<div class="grid3col clearfix">
+  <div class="col col-l"></div>
+  <div class="col col-c"></div>
+  <div class="col col-r"></div>
+</div>
+${1:} 
+/* 3栏定宽 */
+.col { float: left; }
+.col-c { width: 40%; }
+.col-l { width: 30%; }
+.col-r { width: 30%; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>layout3</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
+

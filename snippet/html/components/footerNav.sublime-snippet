@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="footer-nav">
+  <div class="fn-col">
+    <h3>一级菜单</h3>
+    <ul>
+      <li><a href="">二级菜单</a></li>
+      <li><a href="">二级菜单</a></li>
+      <li><a href="">二级菜单</a></li>
+    </ul>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

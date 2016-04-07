@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+<div class="im im-fold"> <a class="im-btn" href="javascript: void(0);"><i class="icon-arrow-left-3"></i><br>
+  在<br>
+  线<br>
+  客<br>
+  服</a>
+  <div class="im-wrap">
+    <div class="im-hd"><i class="icon-bubbles-2"></i>在线客服</div>
+    <div class="im-bd">
+      <ul>
+        <li> <a target="_blank" href="tencent://message/?uin=8888888&Site=&Menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=1:8888888:3" alt="有事点这里"></a> </li>
+        <li> <a target="_blank" href="tencent://message/?uin=8888888&Site=&Menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=1:8888888:8" alt="有事点这里"></a></li>
+      </ul>
+    </div>
+    <div class="im-ft"></div>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>im</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<div class="price"> <span class="price-original"><span>¥</span><strong>239.0</strong></span> <span class="price-now"><span>¥</span><strong>239.0</strong></span> </div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>price</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<a href="skype:${1:martin.zhu.cn}?call" onclick="return skypeCheck();"><img src=http://mystatus.skype.com/smallclassic/${1:martin.zhu.cn} alt="Call me!"></a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>skype</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

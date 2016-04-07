@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<a class="sethome" title="设为首页"  href="javascript:void(0)">设为首页</a><a class="favorite" title="加入收藏"  href="javascript:void(0)">加入收藏</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>home</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

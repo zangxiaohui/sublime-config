@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<nav class="navbar">
+  <ul class="globalnav clearfix">
+    <li id="gn_00"> <a href="index.asp">首页</a></li>
+    <li id="gn_01"> <a href="about.asp">关于我们</a>
+      <ul class="dropdown">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+    </li>
+    <li id="gn_02"> <a href="news.asp">新闻中心</a></li>
+    <li id="gn_03"> <a href="product.asp">产品中心</a></li>
+    <li id="gn_04"> <a href="contact.asp">联系我们</a></li>
+  </ul>
+</nav>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>nav</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

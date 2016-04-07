@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+.overview { padding-left:35px; font:18px/44px microsoft yahei; color: #fff; background:url(../images/ov-bg.gif) repeat-x; }
+.sidenav {  }
+.sidenav li { }
+.sidenav li a { display: block; padding: 6px 30px 6px 25px; color: #333; font-weight: 700;  background:#f5f5f5 url(../images/sn-li-bg.gif) repeat-x; *zoom:1; /* 解决了ie6下间隙和partial click bug */ }
+.sidenav li a:hover,
+.sidenav .active a { background:url(../images/sn-active-bg.gif) repeat-x; color: #fff; }
+/* arrow-right */
+.level2 { } ${2:/* 似乎不能用padding 360兼容模式下会滑不上去 */}
+.level2 li { }
+.level2 li a { padding: 4px 0 4px 25px; background:none;}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sn.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

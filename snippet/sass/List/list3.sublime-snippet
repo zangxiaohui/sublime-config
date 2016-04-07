@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+/* ${1:pro} */
+.${1:pro}-list {
+    margin-right: -20px;
+    @include clearfix;
+    li {
+        @include float;
+        width: 120px;
+        margin: 0 30px 30px 0;
+        .pic {
+            display: block;
+            height: 160px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .caption {
+            line-height: 32px;
+            text-align: center;
+            a {
+                color: #333;
+            }
+        }
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-l3.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

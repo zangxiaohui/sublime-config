@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="banner">
+  <ul class="bd">
+    <li><a href="#"><img src="../../cn/images/banner1.jpg" alt="" width="100%"></a></li>
+    <li><a href="#"><img src="../../cn/images/banner2.jpg" alt="" width="100%"></a></li>
+    <li><a href="#"><img src="../../cn/images/banner3.jpg" alt="" width="100%"></a></li>
+  </ul>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>banner2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

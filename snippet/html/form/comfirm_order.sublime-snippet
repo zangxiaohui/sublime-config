@@ -1,0 +1,49 @@
+<snippet>
+	<content><![CDATA[
+<div>
+	<h3 class="dib">购买服务清单</h3>
+	<table class="order-table" summary="统一下单订单信息区域">
+		<caption>
+		统一下单订单信息区域
+		</caption>
+		<thead>
+			<tr>
+				<th class="s-title">店铺宝贝 </th>
+				<th class="s-price">单价(元) </th>
+				<th class="s-amount">数量 </th>
+				<th class="s-agio">优惠方式(元) </th>
+				<th class="s-total">小计(元) </th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="item">
+				<td class="s-title"><a href="#">蓝牙音箱</a></td>
+				<td class="s-price">0.02</td>
+				<td class="s-amount">2</td>
+				<td class="s-agio">无优惠</td>
+				<td class="s-total">499元</td>
+			</tr>
+			<tr class="item">
+				<td class="s-title"><a href="#">蓝牙音箱</a></td>
+				<td class="s-price">0.02</td>
+				<td class="s-amount">2</td>
+				<td class="s-agio">无优惠</td>
+				<td class="s-total">499元</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="5" class="shop-total"> 已选商品(不含运费)：<strong class="price">&yen;<em id="smallTotal">0.00</em></strong></td>
+			</tr>
+			<tr>
+				<td colspan="5" class="btn-area"><a class="primary-btn" href="#">返回修改</a><a class="second-btn" href="checkout.asp">确认下单</a></td>
+			</tr>
+		</tfoot>
+	</table>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>order</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

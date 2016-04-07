@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[	
+/* ==========================================================================
+   filter
+   ========================================================================== */
+.filter { margin-bottom: 16px; border: 1px solid #ddd; }
+.filter .label { position: absolute; top: 8px; left: 0; text-align: right; width: 105px; }
+/* section-group */
+.filter .filter-sect { padding: 0 10px 0 120px; position: relative; border-bottom: 1px dashed #ddd; }
+.filter .filter-sect:last-of-type { border-bottom: 0 none; }
+.filter-cont { overflow: hidden; }
+.filter-list { padding: 8px 0 0; }
+.filter-list a { margin: 0 10px 8px 0; max-width: 140px; display: inline-block; vertical-align: top; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; height: 20px; line-height: 20px; padding: 0 8px; }
+.filter-list a:hover { color: #c00; text-decoration: underline; }
+.filter-list .current, .filter-list .current:hover { background: #c00; color: #fff; }
+/* filter-breadcrumb */
+.filter-breadcrumb { background: #f1f1f1; border-bottom: 1px solid #ddd; padding: 0 20px; line-height: 20px; }
+.filter-breadcrumb span { display: inline-block; vertical-align: top; margin-top: 8px; }
+.filter-breadcrumb .more-arr { padding: 0 5px; }
+.param-selected { display: inline-block; border: 1px solid #ccc; margin: 8px 10px 8px 0; padding: 0 19px 0 4px; height: 18px; line-height: 18px; max-width: 144px; vertical-align: top; position: relative; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.param-selected .close-icon { position: absolute; right: 6px; top: 6px; width: 7px; height: 7px; display: inline-block; font-size: 0; background: url(../images/sprite.png) no-repeat -153px -396px; }
+.param-selected:hover { border-color: #a8281d; }
+.param-selected:hover .close-icon { background-position: -170px -396px; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cc-filter.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

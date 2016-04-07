@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<div class="sidebar">
+  <h2 class="overview">${1:一级菜单}</h2>
+  <ul class="sidenav">
+    <li class="active"><a href="#">${2:二级菜单}</a>
+      <ul class="level2">
+        <li><a href="">&#8226; 三级菜单1</a></li>
+        <li><a href="">&#8226; 三级菜单2</a></li>
+        <li><a href="">&#8226; 三级菜单3</a></li>
+      </ul>
+    </li>
+    <li><a href="#">${2:二级菜单}</a></li>
+    <li><a href="#">${2:二级菜单}</a></li>
+  </ul>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+		<tabTrigger>sb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/* career-list */
+.career-list table { width: 100%; }
+.career-list th { background: url(../images/th-bg.gif) repeat-x 0 100%; padding: 0 15px; line-height: 32px; font-weight: 300; }
+.career-list .hd td { padding: 0 15px; line-height: 35px; border-bottom: 1px dashed #ddd }
+.career-list tr .td-position { padding-left: 30px; }
+.career-list .on { position: relative; }
+.career-list .on td { border-bottom: 0 none; }
+.career-list .bd { display: none; padding: 20px 30px; background: #c40010 url(../images/bd-bg.gif) repeat-x; color: #fff; }
+.career-list .on:after { content: ""; display: block; position: absolute; border: 6px dashed transparent; font-size: 0; width: 0; height: 0; overflow: hidden; line-height: 0; border-bottom-color: #e00012; border-bottom-style: solid; left: 80px; bottom: -1px; z-index: 99; }
+.career-list .ui-btn { -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; color: #002f20; padding: 0 15px; line-height: 23px; background: url(../images/btn-bg.gif) repeat-x; display: inline-block; }
+.career-list .bd-r { float: right; width: 140px; padding-left: 60px; text-align: right; }
+.career-list .bd-l { overflow: hidden; *zoom:1;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cc-t3.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

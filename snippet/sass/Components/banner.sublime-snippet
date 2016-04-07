@@ -1,0 +1,53 @@
+<snippet>
+	<content><![CDATA[
+// ----------------------------------
+// ${1:banner}
+// ----------------------------------
+.${1:banner} {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    @extend %min-width;
+    height: \$banner-height;
+    .bd {
+        li {
+            a {
+                position: absolute;
+                left: 0;
+                top: 0;
+                overflow: hidden;
+                background-position: 50% 0;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: \$banner-height;
+            }
+        }
+    }
+    .hd {
+        position: absolute;
+        left: 50%;
+        bottom: 15px;
+        margin-left: -33px;
+        li {
+            float: left;
+            cursor: pointer;
+            width: 12px;
+            height: 12px;
+            margin: 0 5px;
+            background-image: url(../images/sprite.png);
+            background-position: 0 -24px;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+        .on {
+            background-position: 0 0;
+        }
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-banner.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

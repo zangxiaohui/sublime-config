@@ -1,0 +1,109 @@
+<snippet>
+	<content><![CDATA[
+<script>
+function message_OnSubmit() {
+  var err = 0;
+  var Uname = get("User_Name").value;
+  if(Uname.length < 1) {
+    get("ReqUname").innerHTML = "*必填";
+    err = err + 1;
+  } else {
+    get("ReqUname").innerHTML = "*"
+  }
+  var Password1 = get("Password1").value;
+  if(Password1.length < 6) {
+    get("ReqPassword1").innerHTML = "*密码长度不能小于6";
+    err = err + 1;
+  } else {
+    get("ReqPassword1").innerHTML = "*"
+  }
+  var Password2 = get("Password2").value.Trim();
+  if(Password1 != Password2) {
+    get("ReqPassword2").innerHTML = "*两次密码输入不一致";
+    err = err + 1
+  } else {
+    get("ReqPassword2").innerHTML = "*"
+  }
+  var RealName = get("User_RealName").value.Trim();
+  if(RealName.length < 1) {
+    get("ReqRealName").innerHTML = "*必填";
+    err = err + 1;
+  } else {
+    get("ReqRealName").innerHTML = "*"
+  }
+  var UserTel = get("User_Tel").value.Trim();
+  if(UserTel.length < 1) {
+    get("ReqUserTel").innerHTML = "*必填";
+    err = err + 1;
+  } else {
+    get("ReqUserTel").innerHTML = "*"
+  }
+  var UserEmail = get("User_Email").value.Trim();
+  if(UserEmail.length < 1) {
+    get("ReqUserEmail").innerHTML = "*必填";
+    err = err + 1;
+  } else {
+    get("ReqUserEmail").innerHTML = "*"
+  }
+  if(err > 0) {
+    return false;
+  }
+}
+</script>
+<div class="reg-box form-box">
+  <form name="reg-form" method="post" action="/sysaspx/saveUser.aspx" onSubmit="javascript:return message_OnSubmit(this);" id="reg-form">
+    <input type="hidden" name="successMessage" id="successMessage" value="感谢您的注册！" />
+    <input type="hidden" name="successUrl" id="successUrl" value="/edituser.aspx" />
+    <input type="hidden" name="errorMessage" id="errorMessage" value="对不起，提交失败，请重试！" />
+    <input type="hidden" name="errorCodeMessage" id="errorCodeMessage" value="对不起，您输入的验证码值不对，请重试！" />
+    <fieldset>
+      <legend>注册</legend>
+      <div class="field">
+        <label for="User_Name" class="ui-label">账号：</label>
+        <input name="User_Name" type="text" id="User_Name" class="ui-input">
+        <i id="ReqUname" class="asterisk">*</i> </div>
+      <div class="field">
+        <label for="Password1" class="ui-label">密码：</label>
+        <input name="Password1" type="password" id="Password1" class="ui-input">
+        <i id="ReqPassword1" class="asterisk">*</i> </div>
+      <div class="field">
+        <label for="Password2" class="ui-label">确认密码：</label>
+        <input name="Password2" type="password" id="Password2" class="ui-input">
+        <i id="ReqPassword2" class="asterisk">*</i> </div>
+      <div class="field">
+        <label for="User_RealName" class="ui-label">姓名：</label>
+        <input name="User_RealName" type="text" id="User_RealName" class="ui-input">
+        <i id="ReqRealName" class="asterisk">*</i> </div>
+      <div class="field">
+        <label class="ui-label">性别：</label>
+        <label for="male">
+          <input name="User_Gender" type="radio"  id="male" checked="checked">
+          男</label>
+        <label for="female">
+          <input name="User_Gender" type="radio" id="female" >
+          女</label>
+      </div>
+      <div class="field">
+        <label for="User_Tel"  class="ui-label">电话：</label>
+        <input name="User_Tel" type="text" id="User_Tel" class="ui-input">
+        <i id="ReqUserTel" class="asterisk">*</i> </div>
+      <div class="field">
+        <label for="User_IM" class="ui-label">I M ：</label>
+        <input name="User_IM" type="text" id="User_IM" class="ui-input">
+      </div>
+      <div class="field">
+        <label for="User_Email" class="ui-label">Email：</label>
+        <input name="User_Email" type="text" id="User_Email" class="ui-input">
+        <i id="ReqUserEmail" class="asterisk">*</i> </div>
+      <div class="field btn-field">
+        <input type="submit" value="确定">
+      </div>
+    </fieldset>
+  </form>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>reg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

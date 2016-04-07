@@ -1,0 +1,46 @@
+<snippet>
+	<content><![CDATA[
+\$user-photo-height: 150px;
+
+.td-photo {
+    width: 140px;
+    text-align: center;
+    .user-photo {
+        position: relative;
+        width: 120px;
+        height: \$user-photo-height;
+        margin: 0 auto;
+    }
+    .img-box {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .upload-photo {
+        display: block;
+        text-align: center;
+    }
+    .upload-input-box {
+        position: absolute;
+        top: \$user-photo-height + 10;
+        left: 0px;
+        overflow: hidden;
+        height: 26px;
+        width: 120px;
+    }
+    .upload-input {
+        position: absolute;
+        top: 0;
+        right: 0px;
+        outline: 0px;
+        cursor: pointer;
+        height: 26px;
+        font-size: 130px;
+        @include opacity(0);
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-upload.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

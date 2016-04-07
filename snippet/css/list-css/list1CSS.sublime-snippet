@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/* ${1:news} */
+.${1:news}-list { }
+.${1:news}-list li { padding: 0 10px; border-bottom: 1px dashed #ddd; line-height: 30px; }
+.${1:news}-list li a { }
+.${1:news}-list li span { float: right; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cc-l1.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

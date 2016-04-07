@@ -1,0 +1,83 @@
+<snippet>
+	<content><![CDATA[
+//
+// Cart
+// --------------------------------------------------
+.cart-table {
+    caption {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    th,
+    td {
+        padding: 18px 15px;
+    }
+    th {
+        border-top: 1px solid #ddc479;
+        border-bottom: 1px solid #e3e0c3;
+    }
+    .td-item-pic, .td-price, .td-amount, .td-sum, .td-op {
+        text-align: center;
+    }
+    .td-sum {
+        color: \$primary;
+        font-weight: 700;
+    }
+    .change-num {
+        a {
+            color: #ccd1d9;
+            display: inline-block;
+            margin: 0 5px;
+            vertical-align: middle;
+            padding-left: 5px;
+            &:hover {
+                color: #8994a7;
+            }
+        }
+        .text-amount {
+            width: 50px;
+            height: 18px;
+            line-height: 18px;
+            padding: 0;
+            border: 1px solid #e6e9ed;
+            @include border-radius(5px);
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+    .delete {
+        i {
+            color: #ccd1d9;
+        }
+        &:hover {
+            i {
+                color: \$primary;
+            }
+        }
+    }
+    tbody {
+        border-bottom: 1px solid #e3e0c3;
+    }
+    tfoot {
+        td {
+            text-align: right;
+        }
+        #smallTotal {
+            color: \$primary;
+            padding: 0 9px;
+            font-size: 24px;
+        }
+        .btn-area {
+            text-align: right;
+            .ui-btn {
+                margin-left: 20px;
+            }
+        }
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-cart.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

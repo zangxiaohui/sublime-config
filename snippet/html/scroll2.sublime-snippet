@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+<div id="preview">
+  <div id="spec-n1" class="jqzoom"> <img src="../../cn/images/pic.gif" jqimg="../../cn/images/pic.gif" width="368" height="342"> </div>
+  <div class="focus-nav">
+    <div class="sPrev"></div>
+    <div class="sNext"></div>
+    <div class="thumb">
+      <ul class="list-h cf"  id="thumbpic">
+        <li><img src="../../cn/images/pic.gif" alt=""></li>
+        <li><img src="../../cn/images/banner1.jpg" alt=""></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+\$(function() {
+  \$(".thumb li").eq(0).addClass("on");
+  \$(".thumb img").bind("mouseover", function() {
+    var src = \$(this).attr("src");
+    \$("#spec-n1 img").eq(0).attr({
+      src: src.replace("\/n5\/", "\/n1\/"),
+      jqimg: src.replace("\/n5\/", "\/n0\/")
+    });
+    \$(".thumb li").each(function() {
+      if (\$(this).attr("class") == "on") {
+        \$(this).removeClass("on");
+      }
+    });
+    \$(this).parent().addClass("on")
+  });
+});
+jQuery("#preview .focus-nav").slide({mainCell: "ul",delayTime: 100,vis: 4,effect: "left",autoPage: true,prevCell: ".sPrev",nextCell: ".sNext"});
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scroll2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

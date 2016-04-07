@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/* tabs */
+.tab-hd { border-bottom: 1px solid #6c6; }
+.tab-hd h2 { float: left; }
+.tab-hd h2 a { display: block; padding: 0 15px; line-height: 32px; background: #cfc; border: 1px solid #6c6; margin-bottom: -1px; }
+.tab-hd .on { }
+.tab-hd .on a { background: #fff; border-bottom: 1px solid #fff; _position: relative; }
+.tab-hd .more { }
+.tab-bd { }
+.tab-cont { display: none; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tab.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

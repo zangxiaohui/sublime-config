@@ -1,0 +1,55 @@
+<snippet>
+	<content><![CDATA[
+<div id="filter">
+  <div class="filter-container">
+    <div class="filter-breadcrumb">
+      <ol>
+        <li> <a href="#">全部 </a> </li>
+        <li class="bc-arr">></li>
+        <li> <a href="#">美食 </a> </li>
+      </ol>
+    </div>
+    <div class="filter-section-group">
+      <div class="filter-sect">
+        <div class="label">分类：</div>
+        <ul class="filter-list">
+          <li class="item current"><a href="">全部</a></li>
+          <li class="item"><a class="hot" href="">20元以下</a></li>
+          <li class="item"><a href="">20-50元</a></li>
+          <li class="item"><a href="">50-80元</a></li>
+        </ul>
+      </div>
+      <div class="filter-sect">
+        <div class="label">分类：</div>
+        <ul class="filter-list">
+          <li class="item current"><a href="">全部</a></li>
+          <li class="item"><a class="hot" href="">20元以下</a></li>
+          <li class="item"><a href="">20-50元</a></li>
+          <li class="item"><a href="">50-80元</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="filter" class="filter">
+  <div class="filter-breadcrumb"> <span>Selected </span> <span class="more-arr">></span> <a class="param-selected" href="#"> Use : OCTG <i class="fa fa-close"></i> </a> <a class="param-selected" href="#"> Use : OCTGOCTGOCTGOCTGOCTGOCTG <i class="fa fa-close"></i> </a><a class="param-selected" href="#"> Use : OCTGOCTGOCTGOCTGOCTGOCTG <i class="fa fa-close"></i> </a> </div>
+  <div class="filter-sect">
+    <h4 class="label">Use</h4>
+    <div class="filter-cont">
+      <div class="filter-list"> <a href="">OCTG</a> <a href="">Drill Pipe</a> <a href="">Proprietary</a> <a href="">OCTG</a> <a href="">Drill Pipe</a> <a href="">Proprietary</a> <a href="">Drill Pipe</a> <a href="">OCTG</a> <a href="">Drill Pipe</a> <a href="">Proprietary</a> <a href="">OCTG</a> <a href="">Drill Pipe</a> <a href="">Proprietary</a> <a href="">Drill Pipe</a> </div>
+    </div>
+    <a href="javascript:;" class="more-btn J_expandBtn"><i class="fa fa-plus-square"></i></a> </div>
+  <div class="filter-sect none">
+    <h4 class="label">Stocks </h4>
+    <div class="filter-cont">
+      <div class="filter-list"> <a href="">Have stocks</a> <a href="">No stocks</a> </div>
+    </div>
+  </div>
+  <div class="all-btn-wrap"> <span class="all-btn J-filter-all-btn"> More Options <i class="fa fa-chevron-down"></i></span></div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>filter</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

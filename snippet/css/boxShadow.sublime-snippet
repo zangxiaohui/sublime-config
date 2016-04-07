@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+filter: progid:DXImageTransform.Microsoft.Shadow(color=#cccccc, direction=0, strength=5) progid:DXImageTransform.Microsoft.Shadow(color=#cccccc, direction=90, strength=5) progid:DXImageTransform.Microsoft.Shadow(color=#cccccc, direction=180, strength=5) progid:DXImageTransform.Microsoft.Shadow(color=#cccccc, direction=270, strength=5); box-shadow: 0 0 10px rgba(0,0,0,.2);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>boxshadow.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

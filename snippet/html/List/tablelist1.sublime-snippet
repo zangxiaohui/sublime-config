@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+<table class="${1:news}-table">
+  <colgroup>
+  <col width="10%">
+  <col width="60%">
+  <col width="15%">
+  <col width="15%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>No.</th>
+      <th>标题</th>
+      <th>日期</th>
+      <th>详细信息</th>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td><a href="${1:news}Show.asp">标题标题标题标题标题标题标题标题标题标题 </a></td>
+      <td>2013-08-21</td>
+      <td>更多信息</td>
+    </tr>
+  </tbody>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>t1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<link href="../../cn/css/nivo-slider.css" rel="stylesheet">
+<script src="../../cn/js/jquery.nivo.slider.pack.js"></script>
+<div class="wrapper banner">
+  <div id="slider" class="nivoSlider"> <a href="#"><img src="../../cn/images/banner1.jpg" data-thumb="images/banner1.jpg" alt=""></a> <a href="#"><img src="../../cn/images/banner2.jpg" data-thumb="images/banner2.jpg" alt=""></a></div>
+</div>
+<script>
+\$(window).load(function() {
+	\$('#slider').nivoSlider();
+});   
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>nivo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

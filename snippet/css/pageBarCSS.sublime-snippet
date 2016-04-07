@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+/* ==================================
+   Page-nav-bar
+   ================================== */
+.page-nav-bar { margin-top: 40px; overflow: hidden; *zoom:1;
+text-align: center; }
+.page-nav { float: right; }
+.page-nav li { display: inline; float: left; height: 25px; margin-right: 3px; line-height: 25px; color: #aaa; }
+.page-nav a { display: block; min-width: 15px; height: 23px; padding: 0 5px; line-height: 23px; text-align: center; white-space: nowrap; background: #fff; border: 1px solid #ccc; color: #06c; _width: 15px }
+.page-nav a:hover { border-color: #1375bf; }
+.page-nav .first-page a { padding: 0 5px; text-align: center }
+.page-nav .curr-page a { font-weight: 700; background-color: #e5f1f9; border-color: #1375bf; color: #1375bf; }
+.page-nav input { vertical-align: middle }
+.page-nav .hundreds { width: auto; padding: 0 5px }
+/* paginator-arrow */
+.page-nav .prev-page a,
+.page-nav .next-page a { position: relative; width: 22px; padding: 0 }
+.paginator-arrow { position: absolute; width: 0; height: 0; margin-right: 0; overflow: hidden; cursor: pointer; border: 5px solid transparent; _border-color: #fff; top: 7px }
+.prev-page .paginator-arrow { left: 3px; border-right-color: #1375bf; }
+.next-page .paginator-arrow { right: 3px; border-left-color: #1375bf; }
+.prev-disabled a:hover,
+.next-disabled a:hover { cursor: default; border-color: #ccc; }
+.prev-disabled .paginator-arrow { border-right-color: #bbb; cursor: default; }
+.next-disabled .paginator-arrow { border-left-color: #bbb; cursor: default; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cc-pagebar.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

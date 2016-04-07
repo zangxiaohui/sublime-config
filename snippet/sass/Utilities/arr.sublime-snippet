@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+@include arrow(${3:right}, ${4:4px}, ${5:1px}, ${1:#f60}, ${2:#000})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-arr.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

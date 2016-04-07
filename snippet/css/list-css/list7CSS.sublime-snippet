@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/* down */
+.down-list { }
+.down-list li { padding: 0 10px; border-bottom: 1px dashed #ddd; line-height: 32px; }
+.down-list li a { }
+.down-list li a:hover { }
+.down-list li .down-btn { float: right; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cc-l7.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

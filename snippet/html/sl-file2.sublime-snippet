@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<style>
+.sl-file { position: relative; display: inline-block; zoom: 1; cursor: pointer; overflow: hidden; vertical-align: middle; }
+/* 影响 .ui-input-file 的样式 */
+.sl-file .sl-file-input { position: absolute; right: 0; top: 0; _font-size: 100px; /* overwrite*/ _font-size: 12px; _zoom: 10; /* overwrite */ height: 100%; _height: auto; opacity: 0; filter: alpha(opacity=0); -ms-filter: "alpha(opacity=0)"; cursor: pointer; }
+.sl-file-btn { height: 28px; }
+.step2-box .ui-input { padding: 3px 10px; }
+</style>
+<p> <span>
+  <input type="text" name="viewfile" id="viewfile" class="viewfile ui-input">
+  </span> <span class="sl-file">
+  <input type="button" value="浏览" class="sl-file-btn" />
+  <input type="file" class="sl-file-input" onchange="document.getElementById('viewfile').value=this.value;" />
+  </span> </p>
+<p>
+  <input type="submit" class="ui-btn ui-btn3"  value="上传文档并生成订单号">
+</p>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>file</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

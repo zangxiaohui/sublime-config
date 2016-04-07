@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<!--[if ${1:lt} IE ${2:8}]>
+${3:}
+<![endif]-->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ie</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

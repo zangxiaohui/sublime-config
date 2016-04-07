@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<ul class="${1:pro}-list">
+  <li>
+  	<div class="thumbnail-wrap"><a class="thumbnail" href="#" title=""><img src="../../cn/images/pic.gif"><!--[if lte ie 7]><i></i><![endif]--></a></div>
+    <div class="caption"><i class="arrow arr-r"><span></span></i><a href="#">产品名称</a><a class="more" href="#">+</a></div>
+  </li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>l6</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

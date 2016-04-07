@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="${1:latest}">
+  <a class="imgArea" href="#"><img src="../../cn/images/${1:latest}-pic.gif"></a>
+  <div class="txtArea">
+    <h3><a href="#">标题文字标题文字标题文字</a></h3>
+    <div class="desc">描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字</div>
+    <a class="more" href="#">更多</a> </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>latest</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

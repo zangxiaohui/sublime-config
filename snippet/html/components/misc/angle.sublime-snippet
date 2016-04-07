@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<i class="angle"><em class="ang-line">◆</em><span class="ang-bg">◆</span></i>
+${1:}
+/* angle */
+.angle { position: absolute; cursor: default; }
+.angle * { font: normal 12px/1 simsun; display: block; height: 12px; width: 12px; overflow: hidden; }
+.ang-line { color: #f00; }
+.ang-bg { color: #fff; margin: -11px 0 0; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>angle</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

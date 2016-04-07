@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<a target="blank" href="http://wpa.qq.com/msgrd?V=1&Uin=${1:421071757}&Site=桑丽& Menu=yes"><img SRC=http://wpa.qq.com/pa?p=1:${1:421071757}:4 alt="点击这里给我发消息"></a> 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>qq</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/* 小米*/
+font: 14px/1.5 arial, "Microsoft Yahei", "Hiragino Sans GB", sans-serif; 
+/* 淘宝 */
+font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif; 
+/* 苹果 */
+font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+
+
+@font-face { font-family: global-iconfont; src: url(//at.alicdn.com/t/font_1404888168_2057645.eot); src: url(//at.alicdn.com/t/font_1404888168_2057645.eot?#iefix) format("embedded-opentype"), url(//at.alicdn.com/t/font_1404888168_2057645.woff) format("woff"), url(//at.alicdn.com/t/font_1404888168_2057645.ttf) format("truetype"), url(//at.alicdn.com/t/font_1404888168_2057645.svg#uxiconfont) format("svg") }
+
+
+@font-face { font-family: global-iconfont; src: url(http://g.tbcdn.cn/tb/icon-font/1.1.8/iconfont.eot); src: url(http://g.tbcdn.cn/tb/icon-font/1.1.8/iconfont.eot?#iefix) format("embedded-opentype"), url(http://g.tbcdn.cn/tb/icon-font/1.1.8/iconfont.woff) format("woff"), url(http://g.tbcdn.cn/tb/icon-font/1.1.8/iconfont.ttf) format("truetype"), url(http://g.tbcdn.cn/tb/icon-font/1.1.8/iconfont.svg#uxiconfont) format("svg") }
+.tmsg .iconfont { font-style: normal; font-family: global-iconfont; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscaleFont type }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>font</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

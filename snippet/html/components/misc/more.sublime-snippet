@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<a class="more" href="#">更多${2:<i class="arrow arr-r">${1:<em></em>}<span></span></i>}</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>more</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

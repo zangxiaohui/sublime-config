@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="breadcrumb-bar clearfix">
+  ${2:<h2>关于我们</h2>
+  }<ol class="breadcrumb">
+    <li class="bc-home"> <a href="index.aspx"> <i class="icon-home"></i> 首页 </a> </li>
+    <li class="bc-arr">></li>
+    <li> <a href="#">一级菜单</a> </li>
+    <li class="bc-arr">></li>
+    <li> <a href="#">二级菜单</a> </li>
+  </ol>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bcc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

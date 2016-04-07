@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<div class="menu">
+  <div class="menu-hd"><a href="#" target="_top">桃桃酥_007</a><i class="fa fa-caret-down"></i></div>
+  <div class="menu-bd">
+    <div class="menu-bd-panel">
+      <a href="#">也是醉了</a>
+      <a href="#">也是醉了是醉了</a>
+    </div>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>menuu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<footer>
+	<div class="wrapper">
+		<div class="copy"> 
+			<!--Repeater TableName="Dcms_BaseInfo" Where="BaseInfo_State='1' and #BaseInfo_CateId=1# " OrderBy="BaseInfo_Id Desc" SqlType="select" PrimaryKey="BaseInfo_Id" SelectDir="this" PageSize="1" IsPage="False"--> 
+			<!--Item--> 
+			{Dcms_BaseInfo.BaseInfo_Content} 
+			<!--/Item--> 
+			<!--/Repeater--> 
+		</div>
+		<div class="footer-nav"> <a href="about.aspx">友情链接</a> <a href="product.aspx"> 实用工具</a> <a href="contact.aspx">联系方式</a> <a href="feedback.aspx">管理中心</a> </div>
+	</div>
+</footer>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

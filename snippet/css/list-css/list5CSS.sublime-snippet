@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+/* ${1:news} */
+.${1:news}-list li { margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px dotted #ddd; }
+.${1:news}-list li .imgArea { width: 100px; height: 200px; }
+.${1:news}-list li .imgArea .thumbnail-wrap,
+.${1:news}-list li .imgArea .thumbnail { width: 100px; height: 200px; }
+.${1:news}-list li .txtArea { padding-left: 10px; height: 200px; }
+.${1:news}-list li .txtArea h3 { }
+.${1:news}-list li .txtArea h3 a { }
+.${1:news}-list li .txtArea h3 span { float: right; }
+.${1:news}-list li .txtArea .desc { }
+.${1:news}-list li .txtArea .more { }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cc-l5.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

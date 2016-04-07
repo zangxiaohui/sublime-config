@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+jQuery(".pro-focus").slide({mainCell:".pro-list",autoPage:true,effect:"leftLoop",autoPlay:true,vis:2});
+jQuery(".focus").slide({ titCell:".focus-nav li", mainCell:".focus-pic ul", effect:"fold", autoPlay:true,delayTime:200});
+jQuery(".focus .focus-nav").slide({ mainCell:"ul",delayTime:100,vis:5,effect:"left",autoPage:true,prevCell:".sPrev",nextCell:".sNext" });
+  jQuery(".tabs").slide({mainCell:".tab-bd",titCell:".tab-hd h2"});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jj-slide1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

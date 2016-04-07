@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/* ${1:latest} */
+.${1:latest} { margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px dotted #ddd; }
+.${1:latest} .imgArea { width: 120px; height: 100px; }
+.${1:latest} .txtArea { height: 100px; padding-left: 10px; }
+.${1:latest} .txtArea h3 { }
+.${1:latest} .txtArea h3 a { }
+.${1:latest} .txtArea .desc { }
+.${1:latest} .txtArea .more { }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>latest.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

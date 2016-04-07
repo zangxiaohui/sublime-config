@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+footer { padding: 10px 0; }
+footer, footer a { line-height: 22px; }
+.foot-l { float: left; }
+.foot-r { float: right; }
+.friendlink select { height: 22px; line-height: 18px; padding: 2px 0; vertical-align: middle; ${3:_margin: 5px 0; }${1:/*ie6 ie7 select 默认高度是22px, ie6下文字与可替换文字在一起，line-height失效 */ }${2:color: #f60; }}
+.cnzz { background: url(../images/cnzz.gif) no-repeat 100%; padding-right: 65px; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>footer.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

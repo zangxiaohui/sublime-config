@@ -1,0 +1,289 @@
+<snippet>
+	<content><![CDATA[
+<select name="url" class="" id="select_country">
+	<option value=""></option>
+	<option value="af/en/"> Afganistan -
+	English </option>
+	<option value="dz/fr/"> Algeria -
+	French </option>
+	<option value="ao/pt/"> Angola -
+	Portuguese </option>
+	<option value="ai/en/"> Anguilla -
+	English </option>
+	<option value="ag/en/"> Antigua
+	and Barbuda - English </option>
+	<option value="ar/es/"> Argentina
+	- Spanish </option>
+	<option value="aw/en/"> Aruba -
+	English </option>
+	<option value="au/en/"> Australia
+	- English </option>
+	<option value="at/de/"> Austria -
+	German </option>
+	<option value="bs/en/"> Bahamas -
+	English </option>
+	<option value="bh/en/"> Bahrain -
+	English </option>
+	<option value="bd/en/"> Bangladesh
+	- English </option>
+	<option value="bb/en/"> Barbados -
+	English </option>
+	<option value="be/en/"> Belgium/Luxembourg
+	- English </option>
+	<option value="be/fr/"> Belgium/Luxembourg
+	- French </option>
+	<option value="be/nl/"> Belgium/Luxembourg
+	- Dutch </option>
+	<option value="bm/en/"> Bermuda -
+	English </option>
+	<option value="bo/es/"> Bolivia -
+	Spanish </option>
+	<option value="bw/en/"> Botswana -
+	English </option>
+	<option value="br/pt/"> Brazil -
+	Portuguese </option>
+	<option value="vg/en/"> British
+	Virgin Islands - English </option>
+	<option value="bn/en/"> Brunei
+	Darussalam - English </option>
+	<option value="bg/bg/"> Bulgaria -
+	Bulgarian </option>
+	<option value="bf/fr/"> Burkina
+	Faso - French </option>
+	<option value="cm/en/"> Cameroon -
+	English </option>
+	<option value="cm/fr/"> Cameroon -
+	French </option>
+	<option value="ca/fr/"> Canada -
+	French </option>
+	<option value="ca/en/"> Canada -
+	English </option>
+	<option value="ky/en/"> Cayman
+	Islands - English </option>
+	<option value="td/fr/"> Chad -
+	French </option>
+	<option value="cl/es/"> Chile -
+	Spanish </option>
+	<option value="cn/zh/"> China -
+	Chinese (Simplified) </option>
+	<option value="co/es/"> Colombia -
+	Spanish </option>
+	<option value="cg/fr/"> Congo -
+	French </option>
+	<option value="cr/es/"> Costa Rica
+	- Spanish </option>
+	<option value="hr/hr/"> Croatia -
+	Croatian </option>
+	<option value="cw/en/"> Curacao -
+	English </option>
+	<option value="cy/en/"> Cyprus -
+	English </option>
+	<option value="cz/cs/"> Czech
+	Republic - Czech </option>
+	<option value="dk/da/"> Denmark -
+	Danish </option>
+	<option value="dm/en/"> Dominica -
+	English </option>
+	<option value="cd/fr/"> Congo, The
+	Democratic Republic of the - French </option>
+	<option value="ec/es/"> Ecuador -
+	Spanish </option>
+	<option value="eg/en/"> Egypt -
+	English </option>
+	<option value="ee/et/"> Estonia -
+	Estonian </option>
+	<option value="et/en/"> Ethiopia -
+	English </option>
+	<option value="fi/fi/"> Finland -
+	Finnish </option>
+	<option value="fr/fr/"> France -
+	French </option>
+	<option value="ga/fr/"> Gabon -
+	French </option>
+	<option value="de/de/"> Germany -
+	German </option>
+	<option value="gh/en/"> Ghana -
+	English </option>
+	<option value="gr/el/"> Greece -
+	Greek </option>
+	<option value="gd/en/"> Grenada -
+	English </option>
+	<option value="gy/en/"> Guyana -
+	English </option>
+	<option value="hk/en/"> Hong Kong
+	- English </option>
+	<option value="hu/hu/"> Hungary -
+	Hungarian </option>
+	<option value="in/en/"> India -
+	English </option>
+	<option value="id/en/"> Indonesia
+	- English </option>
+	<option value="iq/en/"> Iraq -
+	English </option>
+	<option value="ie/en/"> Ireland -
+	English </option>
+	<option value="il/he/"> Israel -
+	Hebrew </option>
+	<option value="it/it/"> Italy -
+	Italian </option>
+	<option value="ci/fr/"> Ivory
+	Coast - French </option>
+	<option value="jm/en/"> Jamaica -
+	English </option>
+	<option value="jp/ja/"> Japan -
+	Japanese </option>
+	<option value="jo/en/"> Jordan -
+	English </option>
+	<option value="kz/kk/"> Kazakhstan
+	- Kazakh </option>
+	<option value="ke/en/"> Kenya -
+	English </option>
+	<option value="kr/ko/"> Korea,
+	Republic of - Korean </option>
+	<option value="kw/en/"> Kuwait -
+	English </option>
+	<option value="lv/lv/"> Latvia -
+	Latvian </option>
+	<option value="lb/en/"> Lebanon -
+	English </option>
+	<option value="lt/lt/"> Lithuania
+	- Lithuanian </option>
+	<option value="ly/en/"> Libya
+	- English </option>
+	<option value="mg/fr/"> Madagascar
+	- French </option>
+	<option value="mw/en/"> Malawi -
+	English </option>
+	<option value="my/en/"> Malaysia -
+	English </option>
+	<option value="mu/en/"> Mauritius
+	- English </option>
+	<option value="mu/fr/"> Mauritius
+	- French </option>
+	<option value="mx/es/"> Mexico -
+	Spanish </option>
+	<option value="ms/en/"> Montserrat
+	- English </option>
+	<option value="ma/fr/"> Morocco -
+	French </option>
+	<option value="mz/pt/"> Mozambique
+	- Portuguese </option>
+	<option value="na/en/"> Namibia -
+	English </option>
+	<option value="np/en/"> Nepal -
+	English </option>
+	<option value="nl/nl/"> Netherlands
+	- Dutch </option>
+	<option value="nz/en/"> New
+	Zealand - English </option>
+	<option value="ne/fr/"> Niger -
+	French </option>
+	<option value="ng/en/"> Nigeria -
+	English </option>
+	<option value="no/no/"> Norway -
+	Norwegian </option>
+	<option value="om/en/"> Oman -
+	English </option>
+	<option value="pk/en/"> Pakistan -
+	English </option>
+	<option value="py/es/"> Paraguay -
+	Spanish </option>
+	<option value="pe/es/"> Peru -
+	Spanish </option>
+	<option value="ph/en/"> Philippines
+	- English </option>
+	<option value="pl/pl/"> Poland -
+	Polish </option>
+	<option value="pt/pt/"> Portugal -
+	Portuguese </option>
+	<option value="qa/en/"> Qatar -
+	English </option>
+	<option value="ro/ro/"> Romania -
+	Romanian </option>
+	<option value="ru/ru/"> Russian
+	Federation - Russian </option>
+	<option value="kn/en/"> Saint
+	Kitts and Nevis - English </option>
+	<option value="lc/en/"> Saint
+	Lucia - English </option>
+	<option value="vc/en/"> Saint
+	Vincent and the Grenadines - English </option>
+	<option value="sa/en/"> Saudi
+	Arabia - English </option>
+	<option value="sn/fr/"> Senegal -
+	French </option>
+	<option value="rs/sr/"> Serbia -
+	Serbian </option>
+	<option value="sc/en/"> Seychelles
+	- English </option>
+	<option value="sc/fr/"> Seychelles
+	- French </option>
+	<option value="sl/en/"> Sierra
+	Leone - English </option>
+	<option value="sg/en/"> Singapore
+	- English </option>
+	<option value="sk/sk/"> Slovakia -
+	Slovak </option>
+	<option value="si/sl/"> Slovenia -
+	Slovenian </option>
+	<option value="za/en/"> South
+	Africa - English </option>
+	<option value="es/es/"> Spain -
+	Spanish </option>
+	<option value="lk/en/"> Sri Lanka
+	- English </option>
+	<option value="sr/en/"> Suriname -
+	English </option>
+	<option value="se/sv/"> Sweden -
+	Swedish </option>
+	<option value="ch/fr/"> Switzerland
+	- French </option>
+	<option value="ch/de/"> Switzerland
+	- German </option>
+	<option value="tw/zh/"> Taiwan -
+	Chinese (Traditional) </option>
+	<option value="tz/en/"> Tanzania,
+	United Republic of - English </option>
+	<option value="th/en/"> Thailand -
+	English </option>
+	<option value="tt/en/"> Trinidad
+	and Tobago - English </option>
+	<option value="tn/fr/"> Tunisia -
+	French </option>
+	<option value="tr/tr/"> Turkey -
+	Turkish </option>
+	<option value="tc/en/"> Turks and
+	Caicos Islands - English </option>
+	<option value="ug/en/"> Uganda -
+	English </option>
+	<option value="ua/uk/"> Ukraine -
+	Ukrainian </option>
+	<option value="ae/en/"> United
+	Arab Emirates - English </option>
+	<option value="uk/en/"> United
+	Kingdom - English </option>
+	<option value="us/en/"> United
+	States - English </option>
+	<option value="uy/es/"> Uruguay -
+	Spanish </option>
+	<option value="uz/uz/"> Uzbekistan
+	- Uzbek </option>
+	<option value="ve/es/"> Venezuela
+	- Spanish </option>
+	<option value="vn/vi/"> Vietnam -
+	Vietnamese </option>
+	<option value="vn/en/"> Vietnam -
+	English </option>
+	<option value="ye/en/"> Yemen -
+	English </option>
+	<option value="zm/en/"> Zambia -
+	English </option>
+	<option value="zw/en/"> Zimbabwe -
+	English </option>
+</select>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>country</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

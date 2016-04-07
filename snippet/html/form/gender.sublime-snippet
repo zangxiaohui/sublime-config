@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<label for="J_gender1" class="except">
+  <input id="J_gender1" type="radio" name="J_gender1">
+  男</label>
+<label for="J_gender2" class="except">
+  <input id="J_gender2" type="radio" name="J_gender2">
+  女</label>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gender</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

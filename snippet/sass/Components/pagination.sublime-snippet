@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+// ---------------------------------------------------
+// Pagination
+// ---------------------------------------------------
+#dcms_pager {
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    .pages {
+        a {
+            display: inline-block;
+            padding: 0 2px;
+            margin: 0 3px;
+            color: \$primary;
+            cursor: pointer;
+            line-height: 20px;
+            &:hover {
+                color: \$link-color;
+            }
+        }
+        .pgcurrent {
+            color: #000;
+            font-weight: 700;
+            cursor: default;
+            &:hover {
+                color: #000;
+            }
+        }
+        .pgempty {
+            color: #999;
+            cursor: not-allowed;
+        }
+        .pgnext, .pgNext {
+            margin: 0 20px;
+        }
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-pagination.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>

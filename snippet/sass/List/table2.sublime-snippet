@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+/* career-table */
+.career-table {
+    border-style: solid;
+    border-width: 2px 0 1px;
+    border-color: $primary;
+    th {
+        background: lighten($primary, 55%);
+        border-bottom: 1px solid lighten($primary, 20%);
+        padding: 10px;
+    }
+    td {
+        padding: 0 10px;
+        line-height: 30px;
+        border-bottom: 1px solid $border-color;
+    }
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss-t2.</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sass</scope>
+</snippet>
